@@ -1,0 +1,10 @@
+{% extends "base.html" %}{% block title %}오늘의 시장 · ETOS{% endblock %}
+{% block content %}
+<section class="hero"><p class="eyebrow">INTEGRATED ECONOMIC VIEW</p><h1>오늘의 통합 경제분석</h1><p>ECOS·FRED·Trading Economics로 계산하고 TradingView·Reuters로 교차검증합니다.</p></section>
+<section class="country-strip"><a href="/countries?country=KR"><b>한국</b><span>심층분석</span></a><a href="/countries?country=US"><b>미국</b><span>금리·유동성</span></a><a href="/countries?country=JP"><b>일본</b><span>엔화·BOJ</span></a><a href="/countries?country=CN"><b>중국</b><span>신용·수요</span></a></section>
+{% if report %}
+<section class="panel"><div class="row"><h2>{{ report.report_date }} 데일리 리포트</h2><span class="badge">{{ report.regime }}</span></div><p>{{ report.summary }}</p><a href="/reports/{{ report.report_date }}">전체 브리핑 보기 →</a></section>
+<section class="grid">{% for item in report.indicators %}<article class="card"><span>{{ item.name }}</span><strong>{{ item.current|default(("%+.2f"|format(item.change_1d)) ~ "%") }}</strong><small>1일 {{ item.change_1d }} · 1주 {{ item.change_1w|default("-") }} · 1개월 {{ item.change_1m|default("-") }}</small><a target="_blank" rel="noopener" href="{{ item.link|default('https://www.tradingview.com/chart/?symbol=' ~ (item.symbol|urlencode)) }}">TradingView 차트 ↗</a></article>{% endfor %}</section>
+<section class="panel"><h2>바닥 관찰 후보</h2>{% if candidates %}<div class="table-wrap"><table><thead><tr><th>종목</th><th>점수</th><th>상태</th><th>확인</th><th>무효화</th><th>위험</th></tr></thead><tbody>{% for c in candidates %}<tr><td>{{ c.name }}<small>{{ c.ticker }}</small></td><td><b>{{ c.score }}</b></td><td>{{ c.status }}</td><td>{{ c.confirmation_price }}</td><td>{{ c.invalidation_price }}</td><td>{{ c.risk }}</td></tr>{% endfor %}</tbody></table></div>{% else %}<p>오늘은 기준을 충족한 후보가 없습니다.</p>{% endif %}</section>
+{% else %}<section class="empty"><h2>첫 리포트를 생성하세요</h2><code>python -m jobs.daily_report</code></section>{% endif %}
+{% endblock %}

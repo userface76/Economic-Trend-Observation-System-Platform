@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block title %}국가별 분석 · ETOS{% endblock %}
+{% block content %}
+<section class="hero"><p class="eyebrow">FOUR ECONOMIES</p><h1>국가별 경제 분석</h1><p>미국·일본·중국·한국의 자금 흐름과 실물경제를 같은 기준으로 비교합니다.</p></section>
+<div class="country-tabs">{% for code, c in countries.items() %}<a class="country-tab {% if selected.code == code %}active{% endif %}" href="/countries?country={{ code }}">{{ c.name }}</a>{% endfor %}</div>
+<section class="panel country-head"><div><span class="source-role">{{ selected.code }}</span><h2>{{ selected.name }} {% if selected.detail %}심층분석{% else %}핵심분석{% endif %}</h2><p>{{ selected.summary }}</p></div><span class="badge">공급·수요·자금심리</span></section>
+<section class="grid">{% for name, symbol, meaning in selected.indicators %}<article class="card"><span>{{ name }}</span><strong class="symbol">{{ symbol }}</strong><small>{{ meaning }}</small><a target="_blank" rel="noopener" href="https://www.tradingview.com/chart/?symbol={{ symbol|urlencode }}">실시간 차트 ↗</a></article>{% endfor %}</section>
+<section class="panel"><h2>분석 축</h2><div class="axis-grid">{% for title, items in selected.sections %}<article class="axis"><h3>{{ title }}</h3><p>{{ items }}</p></article>{% endfor %}</div></section>
+{% if selected.detail %}<section class="panel korea-detail"><h2>한국 심층 판단 순서</h2><ol><li>반도체와 전체 수출의 물량·단가가 동시에 회복하는지 확인</li><li>원화와 외국인 현·선물 수급이 같은 방향인지 확인</li><li>수출 회복이 내수·설비투자·고용으로 확산되는지 확인</li><li>가계부채와 부동산이 금리 인하 여력을 제한하는지 확인</li><li>주가 바닥 신호가 영업현금흐름 개선보다 앞서는지 비교</li></ol></section>{% endif %}
+{% endblock %}
