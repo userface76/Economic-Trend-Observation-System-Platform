@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block title %}{{ report.report_date if report else '리포트 없음' }} · ETOS{% endblock %}
+{% block content %}{% if report %}
+<section class="hero"><p class="eyebrow">MARKET BOTTOM SIGNAL BRIEFING</p><h1>{{ report.report_date }} 시장 브리핑</h1><span class="badge">경제 국면: {{ report.regime }}</span></section>
+<section class="panel"><h2>핵심 판단</h2><p>{{ report.summary }}</p></section>
+<section class="panel"><h2>시장 체온판</h2><div class="table-wrap"><table><thead><tr><th>지표</th><th>현재</th><th>1일</th><th>1주</th><th>1개월</th><th>자금 해석</th></tr></thead><tbody>{% for item in report.indicators %}<tr><td><a target="_blank" rel="noopener" href="{{ item.link }}">{{ item.name }} ↗</a><small>{{ item.symbol }}</small></td><td>{{ item.current }}</td><td>{{ item.change_1d }}</td><td>{{ item.change_1w }}</td><td>{{ item.change_1m }}</td><td>{{ item.interpretation }}</td></tr>{% endfor %}</tbody></table></div></section>
+<section class="panel"><h2>바닥 관찰 후보</h2>{% if candidates %}<p>기준을 통과한 후보 {{ candidates|length }}개</p>{% else %}<p><b>오늘은 70점 이상 후보 없음</b></p><p>단순 과매도는 후보로 인정하지 않았으며, 가격 확인과 수급 개선이 동시에 나타난 종목이 없었습니다.</p>{% endif %}</section>
+<section class="panel"><h2>판단을 바꿀 핵심 데이터</h2><ol>{% for item in report.indicators[0].watch_items|default([]) %}<li>{{ item }}</li>{% endfor %}</ol><p class="disclaimer">이 브리핑은 매수·매도 지시가 아닌 데이터 관찰 신호입니다.</p></section>
+{% else %}<section class="empty"><h2>리포트를 찾을 수 없습니다.</h2><a href="/history">과거 리포트로 돌아가기</a></section>{% endif %}{% endblock %}
