@@ -38,3 +38,37 @@ COUNTRY_PROFILES = {
         "sections": [("신용", "사회융자총량·대출·M2"), ("부동산", "거래·가격·착공"), ("제조업", "PMI·산업생산·수출"), ("내수", "소매판매·소비심리")],
     },
 }
+
+
+# 국가별 대표성과 거래 유동성을 기준으로 고정한 관찰 종목입니다.
+# 가격과 수익률은 매일 생성되는 리포트의 top_stocks 데이터로 덮어씁니다.
+TOP_STOCKS = {
+    "KR": [
+        ("삼성전자", "KRX:005930"), ("SK하이닉스", "KRX:000660"), ("LG에너지솔루션", "KRX:373220"), ("삼성바이오로직스", "KRX:207940"),
+        ("현대차", "KRX:005380"), ("기아", "KRX:000270"), ("KB금융", "KRX:105560"), ("NAVER", "KRX:035420"),
+        ("한화에어로스페이스", "KRX:012450"), ("HD현대중공업", "KRX:329180"), ("셀트리온", "KRX:068270"), ("신한지주", "KRX:055550"),
+        ("삼성물산", "KRX:028260"), ("POSCO홀딩스", "KRX:005490"), ("현대모비스", "KRX:012330"), ("삼성생명", "KRX:032830"),
+        ("카카오", "KRX:035720"), ("SK스퀘어", "KRX:402340"), ("두산에너빌리티", "KRX:034020"), ("삼성SDI", "KRX:006400"),
+    ],
+    "US": [
+        ("NVIDIA", "NASDAQ:NVDA"), ("Microsoft", "NASDAQ:MSFT"), ("Apple", "NASDAQ:AAPL"), ("Amazon", "NASDAQ:AMZN"),
+        ("Alphabet", "NASDAQ:GOOGL"), ("Meta Platforms", "NASDAQ:META"), ("Broadcom", "NASDAQ:AVGO"), ("Tesla", "NASDAQ:TSLA"),
+        ("Berkshire Hathaway", "NYSE:BRK.B"), ("JPMorgan Chase", "NYSE:JPM"), ("Walmart", "NYSE:WMT"), ("Eli Lilly", "NYSE:LLY"),
+        ("Visa", "NYSE:V"), ("Exxon Mobil", "NYSE:XOM"), ("Mastercard", "NYSE:MA"), ("Netflix", "NASDAQ:NFLX"),
+        ("Costco", "NASDAQ:COST"), ("Oracle", "NYSE:ORCL"), ("Palantir", "NASDAQ:PLTR"), ("AMD", "NASDAQ:AMD"),
+    ],
+    "JP": [
+        ("Toyota Motor", "TSE:7203"), ("Mitsubishi UFJ", "TSE:8306"), ("Sony Group", "TSE:6758"), ("Hitachi", "TSE:6501"),
+        ("SoftBank Group", "TSE:9984"), ("Nintendo", "TSE:7974"), ("Keyence", "TSE:6861"), ("Recruit Holdings", "TSE:6098"),
+        ("Fast Retailing", "TSE:9983"), ("Sumitomo Mitsui FG", "TSE:8316"), ("Tokyo Electron", "TSE:8035"), ("Mizuho FG", "TSE:8411"),
+        ("NTT", "TSE:9432"), ("Mitsubishi Corp", "TSE:8058"), ("Itochu", "TSE:8001"), ("Advantest", "TSE:6857"),
+        ("Honda Motor", "TSE:7267"), ("Shin-Etsu Chemical", "TSE:4063"), ("Daiichi Sankyo", "TSE:4568"), ("Tokyo Marine", "TSE:8766"),
+    ],
+    "CN": [
+        ("Tencent", "HKEX:700"), ("Alibaba", "HKEX:9988"), ("Kweichow Moutai", "SSE:600519"), ("ICBC", "SSE:601398"),
+        ("China Construction Bank", "SSE:601939"), ("BYD", "SZSE:002594"), ("CATL", "SZSE:300750"), ("China Mobile", "SSE:600941"),
+        ("Agricultural Bank of China", "SSE:601288"), ("PetroChina", "SSE:601857"), ("Ping An Insurance", "SSE:601318"), ("Bank of China", "SSE:601988"),
+        ("PDD Holdings", "NASDAQ:PDD"), ("Meituan", "HKEX:3690"), ("Xiaomi", "HKEX:1810"), ("China Merchants Bank", "SSE:600036"),
+        ("JD.com", "HKEX:9618"), ("NetEase", "HKEX:9999"), ("Baidu", "HKEX:9888"), ("Li Auto", "HKEX:2015"),
+    ],
+}
