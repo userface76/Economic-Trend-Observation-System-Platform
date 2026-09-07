@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 from datetime import date
 
@@ -10,13 +11,33 @@ from sqlalchemy import desc, select
 from app.database import SessionLocal, init_db
 from app.models import DailyReport, StockCandidate
 from app.report_loader import load_bundled_reports
-from analysis.country_profiles import COUNTRY_PROFILES
+from analysis.country_profiles import COUNTRY_PROFILES, TOP_STOCKS
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 app = FastAPI(title="Economic Trend Observation System Platform")
 app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
 templates = Jinja2Templates(directory=BASE_DIR / "templates")
+
+
+def latest_country_stocks(country: str) -> tuple[list[dict], str | None]:
+    """최신 리포트의 TOP 20을 읽고, 없으면 대표 종목 목록을 반환합니다."""
+    for path in sorted((BASE_DIR / "data" / "reports").glob("*.json"), reverse=True):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        items = payload.get("top_stocks", {}).get(country, [])
+        if items:
+            return items[:20], payload.get("report_date")
+
+    fallback = [{
+        "rank": rank, "name": name, "ticker": symbol, "current": "업데이트 대기",
+        "change_1d": "-", "change_1w": "-", "change_1m": "-",
+        "money_flow": "다음 자동 리포트에서 갱신",
+        "link": f"https://www.tradingview.com/chart/?symbol={symbol.replace(':', '%3A')}",
+    } for rank, (name, symbol) in enumerate(TOP_STOCKS[country], 1)]
+    return fallback, None
 
 
 @app.on_event("startup")
@@ -47,10 +68,13 @@ def guide(request: Request):
 
 @app.get("/countries", response_class=HTMLResponse)
 def countries(request: Request, country: str = "KR"):
-    selected = COUNTRY_PROFILES.get(country.upper(), COUNTRY_PROFILES["KR"])
+    code = country.upper() if country.upper() in COUNTRY_PROFILES else "KR"
+    selected = COUNTRY_PROFILES[code]
+    stocks, stocks_date = latest_country_stocks(code)
     return templates.TemplateResponse(
         "countries.html",
-        {"request": request, "countries": COUNTRY_PROFILES, "selected": selected},
+        {"request": request, "countries": COUNTRY_PROFILES, "selected": selected,
+         "stocks": stocks, "stocks_date": stocks_date},
     )
 
 
