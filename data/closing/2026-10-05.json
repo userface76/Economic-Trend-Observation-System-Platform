@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "report_type": "kr_market_close_watchlist",
+  "market_date_kst": "2026-10-05",
+  "as_of_kst": "2026-10-05T15:48:39+09:00",
+  "regular_session_close_kst": "15:30:00",
+  "purpose": "ETOS validation data; next-session observation candidates only",
+  "investment_instruction": false,
+  "market_summary": {
+    "KOSPI": {
+      "close": null,
+      "change_percent": null,
+      "volume_shares": 0,
+      "turnover_krw": 0,
+      "advancers": null,
+      "decliners": null,
+      "foreign_net_krw": null,
+      "institution_net_krw": null,
+      "status": "market_holiday"
+    },
+    "KOSDAQ": {
+      "close": null,
+      "change_percent": null,
+      "volume_shares": 0,
+      "turnover_krw": 0,
+      "advancers": null,
+      "decliners": null,
+      "foreign_net_krw": null,
+      "institution_net_krw": null,
+      "status": "market_holiday"
+    },
+    "sector_relative_strength": null
+  },
+  "selection_policy": {
+    "minimum_score": 70,
+    "maximum_candidates": 5,
+    "mandatory_fields": [
+      "close",
+      "change_percent",
+      "volume_and_turnover_change",
+      "foreign_and_institution_flow",
+      "ma20",
+      "distance_from_52_week_low",
+      "rsi",
+      "obv",
+      "next_session_confirmation_price",
+      "invalidation_price"
+    ],
+    "exclude_on_any_mandatory_field_missing": true
+  },
+  "candidates": [],
+  "candidate_status": "none",
+  "candidate_status_reason": "South Korea's KOSPI and KOSDAQ were closed on 2026-10-05 for the substitute holiday. There was no regular-session close, volume, turnover, investor flow or technical confirmation data to evaluate.",
+  "data_quality": {
+    "required_market_fields_total": 17,
+    "required_market_fields_present": 0,
+    "required_market_fields_missing": 17,
+    "missing_rate_percent": 100,
+    "candidate_rows_evaluated_as_complete": 0,
+    "candidate_rows_accepted": 0,
+    "cross_validation_status": "not_applicable_market_holiday",
+    "validation_day_eligible": false,
+    "validation_day_exclusion_reason": "Market holiday; no trading session occurred. The previous session's values were not copied into today's close record."
+  },
+  "sources": [
+    {
+      "name": "AP market report",
+      "url": "https://apnews.com/article/f83cf147deaf5a2361b1ae7eee74a627",
+      "checked_at_kst": "2026-10-05T15:48:39+09:00",
+      "evidence": "Trading in South Korea was closed for a national holiday."
+    },
+    {
+      "name": "Investing.com market holiday calendar",
+      "url": "https://kr.investing.com/holiday-calendar/",
+      "checked_at_kst": "2026-10-05T15:48:39+09:00",
+      "evidence": "2026-10-05 listed as South Korea substitute holiday; Seoul exchange closed."
+    }
+  ],
+  "notes": [
+    "No close briefing was generated from stale 2026-10-02 data.",
+    "No candidates were scored because no Korean regular-session data existed for 2026-10-05.",
+    "Next eligible Korean regular session is expected on 2026-10-06, subject to exchange notice.",
+    "This file is an audit record, not a buy or sell instruction."
+  ]
+}
