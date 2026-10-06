@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "report_type": "kr_market_close_watchlist",
+  "market_date_kst": "2026-10-06",
+  "as_of_kst": "2026-10-06T15:37:36+09:00",
+  "regular_session_close_kst": "15:30:00",
+  "purpose": "ETOS validation data; next-session observation candidates only",
+  "investment_instruction": false,
+  "market_summary": {
+    "KOSPI": {
+      "close": 6936.6,
+      "change_percent": -0.9,
+      "volume_shares": 224900000,
+      "turnover_krw": null,
+      "advancers": null,
+      "decliners": null,
+      "foreign_net_krw": null,
+      "institution_net_krw": null,
+      "status": "partial_close_data"
+    },
+    "KOSDAQ": {
+      "close": 917.12,
+      "change_percent": 2.67,
+      "volume_shares": 519910000,
+      "turnover_krw": null,
+      "advancers": null,
+      "decliners": null,
+      "foreign_net_krw": null,
+      "institution_net_krw": null,
+      "status": "partial_close_data"
+    },
+    "sector_relative_strength": {
+      "strong": [
+        "KOSDAQ large-cap growth",
+        "secondary battery",
+        "selected biotech"
+      ],
+      "weak": [
+        "KOSPI semiconductors",
+        "KOSPI mega-cap technology"
+      ],
+      "status": "directional_only_not_final_cross_validated"
+    }
+  },
+  "selection_policy": {
+    "minimum_score": 70,
+    "maximum_candidates": 5,
+    "mandatory_fields": [
+      "close",
+      "change_percent",
+      "volume_and_turnover_change",
+      "foreign_and_institution_flow",
+      "ma20",
+      "distance_from_52_week_low",
+      "rsi",
+      "obv",
+      "next_session_confirmation_price",
+      "invalidation_price"
+    ],
+    "exclude_on_any_mandatory_field_missing": true,
+    "private_screen_rules": [
+      "today_volume_at_least_3x_20d_average",
+      "daily_change_below_4_percent",
+      "exclude_distribution_signals"
+    ]
+  },
+  "candidates": [],
+  "candidate_status": "none",
+  "candidate_status_reason": "No Korean stock had all mandatory closing liquidity, final investor-flow, 20-day average volume, RSI, OBV, 52-week-low test, confirmation-price and invalidation-price fields independently verified at 15:37 KST. Intraday flows were not treated as final data.",
+  "data_quality": {
+    "required_market_fields_total": 17,
+    "required_market_fields_present": 6,
+    "required_market_fields_missing": 11,
+    "missing_rate_percent": 64.71,
+    "candidate_rows_evaluated_as_complete": 0,
+    "candidate_rows_accepted": 0,
+    "cross_validation_status": "partial_not_passed",
+    "validation_day_eligible": false,
+    "validation_day_exclusion_reason": "KRX final investor trading data is scheduled after 15:45 KST and final time-inclusive data after about 20:00 KST; turnover, breadth, final flows and stock technical indicators were not fully cross-validated."
+  },
+  "sources": [
+    {
+      "name": "Investing.com KOSDAQ historical data",
+      "url": "https://kr.investing.com/indices/kosdaq-historical-data",
+      "checked_at_kst": "2026-10-06T15:37:36+09:00",
+      "evidence": "KOSDAQ 917.12, +2.67%, volume 519.91M for 2026-10-06."
+    },
+    {
+      "name": "AP Asian markets report",
+      "url": "https://apnews.com/article/e8285ec7afbe81e9df277e8ee2127982",
+      "checked_at_kst": "2026-10-06T15:37:36+09:00",
+      "evidence": "KOSPI 6,936.60, about -1%; Samsung Electronics and SK Hynix declined."
+    },
+    {
+      "name": "KRX investor net-buy ranking notice",
+      "url": "https://data.krx.co.kr/contents/MDC/MDI/outerLoader/index.cmd?kosdaqGlobalYn=1&locale=ko_KR&screenId=MDCSTAT024",
+      "checked_at_kst": "2026-10-06T15:37:36+09:00",
+      "evidence": "Same-day regular-session trading data scheduled after 15:45; final data including after-hours scheduled around 20:00."
+    },
+    {
+      "name": "Aju Press intraday KRX report",
+      "url": "https://www.ajupress.com/view/20261006132870595",
+      "checked_at_kst": "2026-10-06T15:37:36+09:00",
+      "evidence": "Intraday KOSPI foreign selling and KOSDAQ foreign/institutional buying; not used as final flow."
+    }
+  ],
+  "notes": [
+    "KOSPI close and volume are based on sources available at the report cutoff and remain partial pending later KRX final tables.",
+    "No candidate was scored from incomplete data.",
+    "The 3x-volume and below-4%-price screen cannot be run market-wide without complete per-stock 20-day OHLCV and final flow data.",
+    "This record is not a buy or sell instruction."
+  ]
+}
