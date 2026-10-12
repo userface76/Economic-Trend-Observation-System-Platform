@@ -1,0 +1,41 @@
+{
+  "report_date": "2026-10-13",
+  "report_path": "data/reports/2026-10-13.json",
+  "report_commit_sha": "041c9b51b837b4dab2ae88e7ef4b71b54ebc9fe8",
+  "remote_content_verified": true,
+  "data_reference_date": "2026-10-12",
+  "bond_reference_date": "2026-10-09",
+  "data_quality": {
+    "status": "partial",
+    "generated_at": "2026-10-13T08:39:24+09:00",
+    "candidate_evaluation": "자료 부족으로 점수 부여 보류; 실제 조건 미충족과 구분",
+    "training_eligible": false,
+    "missing_items": [
+      "지표별 일부 1주·1개월 비교가격",
+      "구리 확정 결제값",
+      "한국 전체 시장폭",
+      "대표주식 대부분 정규장 일봉·수급·기술·재무자료"
+    ],
+    "US_extended_quotes": "finance 조회는 UTC23시대 시간외 가격이므로 정규장 종가 필드에서 제외",
+    "JP_note": "10/12 휴장, 직전 10/9 개별 종가 미검증",
+    "sources": [
+      "https://kr.investing.com/indices/kospi-historical-data",
+      "https://kr.investing.com/indices/kosdaq-historical-data",
+      "https://apnews.com/article/f07713e8b2e438ac5903b50f5ce97235",
+      "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+      "https://news.einfomax.co.kr/news/articleView.html?idxno=4438808",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "https://www.bok.or.kr/portal/bbs/P0000559/view.do?depth=201150&menuNo=200690&nttId=11064191",
+      "https://edgeconsultancykw.com/commodities-wrap-12-october-2026/",
+      "https://edgeconsultancykw.com/us-market-wrap-12-october-2026/"
+    ],
+    "missing_numeric_fields": 310,
+    "top_stock_missing_rate_percent": 96.875
+  },
+  "deployment": {
+    "id": "eb18510d-3b61-4b80-b6ff-52b8081e77fe",
+    "status": "SUCCESS",
+    "updated_at": "2026-10-12T23:41:53.564Z",
+    "service_id": "ed170520-2868-49f0-8fe0-f090a60506e9"
+  }
+}
