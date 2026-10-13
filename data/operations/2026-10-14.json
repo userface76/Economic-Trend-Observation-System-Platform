@@ -1,0 +1,54 @@
+{
+  "report_date": "2026-10-14",
+  "report_commit_sha": "2ac93d4272e560cd68410f51fcce49ec8b9cb75b",
+  "report_path": "data/reports/2026-10-14.json",
+  "remote_content_verified": true,
+  "data_reference_date": "2026-10-13",
+  "data_quality": {
+    "status": "partial",
+    "generated_at": "2026-10-14T08:41:17+09:00",
+    "training_eligible": false,
+    "candidate_evaluation": "자료 부족으로 평가 불가; 실제 조건 미충족으로 간주하지 않음",
+    "top_stock_missing_rate_percent": 100,
+    "missing_items": [
+      "80종목 최신 정규장 시세·기간 변화·수급",
+      "미국 Nasdaq100·DXY·국채·상품·VIX 확정 종가",
+      "한국·미국 당일 전체 시장폭",
+      "지표 1주·1개월 비교값"
+    ],
+    "excluded_sources": [
+      {
+        "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+        "reason": "10/13 09:17ET 개장 전 금리·상품·VIX 값을 확정 종가에서 제외"
+      },
+      {
+        "url": "https://oex-50683.zendesk.com",
+        "reason": "원천과 기준기간 불명확한 파생상품 보고 제외"
+      }
+    ],
+    "sources": [
+      "https://apnews.com/article/a0a577dfd12f63ee6780a56ab02b55c4",
+      "https://www.freezinenews.com/news/articleView.html?idxno=30540",
+      "https://www.foeconomy.co.kr/news/view.php?no=9627",
+      "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4439052",
+      "https://www.schwab.com/learn/story/stock-market-update-open"
+    ],
+    "validation": {
+      "json_syntax": true,
+      "date": true,
+      "key_order": true,
+      "top_stock_counts": {
+        "KR": 20,
+        "US": 20,
+        "JP": 20,
+        "CN": 20
+      },
+      "candidates_threshold": 70
+    }
+  },
+  "deployment": {
+    "id": "d291e7fd-ba65-4980-9dda-48444a2a8a94",
+    "status": "SUCCESS",
+    "updated_at": "2026-10-13T23:43:17.368Z"
+  }
+}
