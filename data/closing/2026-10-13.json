@@ -1,0 +1,85 @@
+{
+  "report_date": "2026-10-13",
+  "market_status": "정규장 종료",
+  "data_as_of": "2026-10-13 15:30 KST",
+  "generated_at": "2026-10-13 15:40 KST",
+  "summary": "후보 없음. KOSPI 마감 속보는 6,035.35(-5.46%)로 전일 대비 하락 확대를 보도했다. KOSDAQ -1.43%는 단일 마감 속보 값이다. 거래량·거래대금·시장폭·외국인·기관 최종 수급과 종목별 기술·재무 자료를 동일 기준으로 검증하지 못해 점수 산정을 보류했다. 자료 부족으로 평가 불가이며 실제 조건 미충족과 구분한다.",
+  "market": {
+    "kospi": {
+      "close": 6035.35,
+      "change_percent": -5.46,
+      "volume": null,
+      "trading_value_krw": null,
+      "advancers": null,
+      "decliners": null,
+      "foreign_net_krw": null,
+      "institutional_net_krw": null,
+      "reference_date": "2026-10-13",
+      "verification": "한국경제 마감 속보; 이데일리 6035 -5.46%와 정수·등락률 일치. 공식 정밀 수치 직접조회 미완료"
+    },
+    "kosdaq": {
+      "close": null,
+      "change_percent": -1.43,
+      "volume": null,
+      "trading_value_krw": null,
+      "advancers": null,
+      "decliners": null,
+      "foreign_net_krw": null,
+      "institutional_net_krw": null,
+      "reference_date": "2026-10-13",
+      "verification": "이데일리 단일 마감 속보; 정밀 종가 미검증"
+    }
+  },
+  "sector_relative_strength": {
+    "status": "미확인",
+    "observed": [],
+    "reference_date": "2026-10-13"
+  },
+  "candidates": [],
+  "candidate_result": {
+    "status": "후보 없음",
+    "evaluation_status": "필수 데이터 부족으로 평가 불가",
+    "threshold": 70,
+    "missing_rate_percent": 100,
+    "missing_rate_basis": "완전한 종목별 종가·수급·거래량 변화·기술신호·재무 자료 묶음 확보 종목 0개; 종목 모집단 기준 누락률은 산출 불가",
+    "notice": "매수 지시가 아닌 다음 거래일 관찰 기록"
+  },
+  "validation": {
+    "json_syntax": "통과",
+    "date_check": "통과",
+    "required_fields": "통과",
+    "cross_validation": "부분 확인",
+    "estimated_values_used": false,
+    "training_eligible": false,
+    "market_missing_rate_percent": 81.25,
+    "market_missing_rate_basis": "양 시장 각 8필드 총16개 중13개 null",
+    "excluded_sources": [
+      {
+        "url": "https://kr.investing.com/indices/kospi-historical-data",
+        "reason": "15:29:59 현재가6035.27과 당일 역사표6002.03이 불일치하므로 종가·거래량에서 제외"
+      },
+      {
+        "url": "https://data.krx.co.kr/",
+        "reason": "동적 통계 수치 미수신"
+      },
+      {
+        "url": "https://m.alphasquare.co.kr/home/market-summary?code=005930",
+        "reason": "12:18 장중 수급·시장폭을 최종값으로 쓰지 않음"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "한국경제 마감 속보",
+      "url": "https://www.hankyung.com/article/2026101390676",
+      "status": "검색 원문 요약; 본문 접근 실패",
+      "accessed_at": "2026-10-13"
+    },
+    {
+      "name": "이데일리 마감 속보",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03611286645612592",
+      "published_at": "2026-10-13 15:34:34 KST",
+      "status": "검색 원문 요약; 본문 접근 실패"
+    }
+  ]
+}
