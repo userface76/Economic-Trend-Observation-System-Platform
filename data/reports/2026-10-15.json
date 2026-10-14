@@ -1694,32 +1694,19 @@
   },
   "data_quality": {
     "status": "partial",
-    "generated_at": "2026-10-14T08:41:17+09:00",
+    "generated_at": "2026-10-15T08:42:47+09:00",
     "training_eligible": false,
-    "candidate_evaluation": "자료 부족으로 평가 불가; 실제 조건 미충족으로 간주하지 않음",
-    "top_stock_missing_rate_percent": 100,
+    "candidate_evaluation": "자료 부족으로 평가 불가; 실제 조건 미충족과 구분",
+    "numeric_fields": 384,
+    "missing_fields": 364,
+    "missing_pct": 94.79,
+    "scope": "indicators plus 80 representative stocks; snapshot values excluded",
     "missing_items": [
-      "80종목 최신 정규장 시세·기간 변화·수급",
-      "미국 Nasdaq100·DXY·국채·상품·VIX 확정 종가",
-      "한국·미국 당일 전체 시장폭",
-      "지표 1주·1개월 비교값"
-    ],
-    "excluded_sources": [
-      {
-        "url": "https://www.schwab.com/learn/story/stock-market-update-open",
-        "reason": "10/13 09:17ET 개장 전 금리·상품·VIX 값을 확정 종가에서 제외"
-      },
-      {
-        "url": "https://oex-50683.zendesk.com",
-        "reason": "원천과 기준기간 불명확한 파생상품 보고 제외"
-      }
-    ],
-    "sources": [
-      "https://apnews.com/article/a0a577dfd12f63ee6780a56ab02b55c4",
-      "https://www.freezinenews.com/news/articleView.html?idxno=30540",
-      "https://www.foeconomy.co.kr/news/view.php?no=9627",
-      "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4439052",
-      "https://www.schwab.com/learn/story/stock-market-update-open"
+      "지표 1주·1개월 비교값",
+      "양국 시장폭",
+      "80종목 동일 거래일 시세·기간 변화·수급",
+      "Nasdaq100 출처 간 종가 불일치",
+      "DXY·WTI·금·구리 확정 결제가격"
     ],
     "validation": {
       "json_syntax": true,
@@ -1826,8 +1813,8 @@
     ],
     "cross_validation": "partial",
     "deployment": {
-      "status": "pending",
-      "commit_sha": null
+      "status": "tracked_in_separate_audit",
+      "audit_path": "data/deployment_checks/2026-10-15.json"
     },
     "quality": {
       "numeric_fields": 384,
