@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-15",
+  "kind": "closing",
+  "data_as_of": "2026-10-15T15:30:00+09:00",
+  "data_commit_sha": "8232d73f7cc0e13722a47b4faada4218fd5de69d",
+  "data_url": "https://github.com/userface76/Economic-Trend-Observation-System-Platform/blob/8232d73f7cc0e13722a47b4faada4218fd5de69d/data/closing/2026-10-15.json",
+  "remote_json_verified": true,
+  "collection_status": "success",
+  "verification_status": "partial_and_stock_conflicts",
+  "training_eligible": false,
+  "quality": {
+    "market_required_field_count": 16,
+    "market_null_count": 4,
+    "market_null_pct": 25,
+    "market_independently_crosschecked_field_count": 4,
+    "market_not_independently_crosschecked_pct": 75,
+    "stock_api_basic_required_count": 84,
+    "stock_api_basic_missing_count": 0,
+    "stock_api_basic_missing_pct": 0,
+    "stock_canonical_required_count": 294,
+    "stock_canonical_missing_count": 294,
+    "stock_canonical_missing_pct": 100,
+    "stock_canonical_required_fields": [
+      "close",
+      "change_pct",
+      "volume",
+      "turnover_krw",
+      "volume_change_1d_pct",
+      "turnover_change_1d_pct",
+      "foreign_net_buy_krw",
+      "institution_net_buy_krw",
+      "ma20",
+      "low_52w",
+      "rsi14",
+      "obv",
+      "confirmation_price",
+      "invalidation_price"
+    ],
+    "cross_validation": "partial_markets; stock_sample_conflicts",
+    "training_eligible": false,
+    "quarantine_reason": "출처 간 종가·수급 불일치와 필수 종목 평가자료 미확보"
+  },
+  "deployment": {
+    "id": "02697a2f-6445-4372-93c7-1177a79899a8",
+    "status": "SUCCESS",
+    "commit_sha": "8232d73f7cc0e13722a47b4faada4218fd5de69d",
+    "verified_at": "2026-10-15T07:23:33.034Z"
+  }
+}
