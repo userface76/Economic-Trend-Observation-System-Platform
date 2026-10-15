@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-14",
+  "checked_at": "2026-10-15T00:51:26.799862287Z",
+  "status": "partial_recovered",
+  "markets": {
+    "KOSPI": {
+      "close": 6008.81,
+      "change_pct": -0.44,
+      "volume": null,
+      "turnover_krw": null,
+      "advancers": null,
+      "decliners": null,
+      "foreign_net_buy": null,
+      "institution_net_buy": null
+    },
+    "KOSDAQ": {
+      "close": 823.88,
+      "change_pct": -1.57,
+      "volume": null,
+      "turnover_krw": null,
+      "advancers": null,
+      "decliners": null,
+      "foreign_net_buy": null,
+      "institution_net_buy": null
+    }
+  },
+  "stocks": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "close": 232000,
+      "change_pct": 0,
+      "volume": 19009052,
+      "turnover_krw": 4471869613456
+    },
+    {
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "close": 1419000,
+      "change_pct": -1.6632016632016633,
+      "volume": 3739813,
+      "turnover_krw": 5420960555678
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "close": 422000,
+      "change_pct": 2.9268292682926855,
+      "volume": 671525,
+      "turnover_krw": 283134672500
+    },
+    {
+      "ticker": "207940",
+      "name": "삼성바이오로직스",
+      "close": 1182000,
+      "change_pct": -1.9900497512437831,
+      "volume": 54896,
+      "turnover_krw": 64952340997
+    },
+    {
+      "ticker": "005380",
+      "name": "현대차",
+      "close": 313500,
+      "change_pct": -0.4761904761904745,
+      "volume": 479303,
+      "turnover_krw": 151428249750
+    },
+    {
+      "ticker": "000270",
+      "name": "기아",
+      "close": 108600,
+      "change_pct": 0.27700831024930483,
+      "volume": 801742,
+      "turnover_krw": 87569618700
+    },
+    {
+      "ticker": "068270",
+      "name": "셀트리온",
+      "close": 179800,
+      "change_pct": 0.05564830272677401,
+      "volume": 466550,
+      "turnover_krw": 84812993250
+    },
+    {
+      "ticker": "105560",
+      "name": "KB금융",
+      "close": 159200,
+      "change_pct": -1.9704433497536922,
+      "volume": 1150730,
+      "turnover_krw": 184582818700
+    },
+    {
+      "ticker": "055550",
+      "name": "신한지주",
+      "close": 95000,
+      "change_pct": -4.714142427281843,
+      "volume": 1711879,
+      "turnover_krw": 164124112150
+    },
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "close": 179400,
+      "change_pct": 0.786516853932584,
+      "volume": 611795,
+      "turnover_krw": 110557543100
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "close": 31700,
+      "change_pct": 1.2779552715654896,
+      "volume": 1484255,
+      "turnover_krw": 47254431175
+    },
+    {
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "close": 591000,
+      "change_pct": 5.535714285714288,
+      "volume": 886314,
+      "turnover_krw": 522448577000
+    },
+    {
+      "ticker": "051910",
+      "name": "LG화학",
+      "close": 267500,
+      "change_pct": 2.0992366412213803,
+      "volume": 281724,
+      "turnover_krw": 75864791500
+    },
+    {
+      "ticker": "012330",
+      "name": "현대모비스",
+      "close": 358500,
+      "change_pct": 2.869440459110484,
+      "volume": 314172,
+      "turnover_krw": 113309168250
+    },
+    {
+      "ticker": "028260",
+      "name": "삼성물산",
+      "close": 291500,
+      "change_pct": -2.833333333333332,
+      "volume": 504542,
+      "turnover_krw": 149164652415
+    },
+    {
+      "ticker": "086790",
+      "name": "하나금융지주",
+      "close": 121600,
+      "change_pct": -2.2508038585209,
+      "volume": 1134104,
+      "turnover_krw": 138304450415
+    },
+    {
+      "ticker": "032830",
+      "name": "삼성생명",
+      "close": 246500,
+      "change_pct": -3.7109375,
+      "volume": 300559,
+      "turnover_krw": 75217553500
+    },
+    {
+      "ticker": "066570",
+      "name": "LG전자",
+      "close": 177400,
+      "change_pct": -0.3370786516853963,
+      "volume": 767748,
+      "turnover_krw": 136740782250
+    },
+    {
+      "ticker": "003670",
+      "name": "포스코퓨처엠",
+      "close": 185400,
+      "change_pct": 4.627539503386013,
+      "volume": 600131,
+      "turnover_krw": 110777926350
+    },
+    {
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "close": 116500,
+      "change_pct": 2.915194346289751,
+      "volume": 619007,
+      "turnover_krw": 70993781100
+    },
+    {
+      "ticker": "011200",
+      "name": "HMM",
+      "close": 23350,
+      "change_pct": 5.895691609977316,
+      "volume": 6012365,
+      "turnover_krw": 140142674137
+    }
+  ],
+  "candidates": [],
+  "candidate_evaluation": "unassessable_missing_fund_flow_technicals_fundamentals",
+  "training_eligible": false,
+  "quality": {
+    "market_required_fields": 16,
+    "market_missing_fields": 12,
+    "market_missing_pct": 75,
+    "stock_price_volume_turnover_missing_pct": 0,
+    "cross_validation": "partial_closes_agree_with_previous_verified_report"
+  },
+  "sources": [
+    {
+      "source": "KIS_virtual",
+      "trade_date": "2026-10-14",
+      "collected_at": "2026-10-15T00:51:26.799862287Z",
+      "raw_path": "data/market/KR/2026-10-14.json"
+    },
+    {
+      "source": "2026-10-15 morning report verified market closes",
+      "path": "data/reports/2026-10-15.json"
+    }
+  ],
+  "note": "가격 원자료와 후보 평가 학습 가능 여부는 구분. 매수 지시가 아닌 관찰 검증자료."
+}
