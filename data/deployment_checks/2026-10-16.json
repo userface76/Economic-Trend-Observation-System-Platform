@@ -1,0 +1,28 @@
+{
+  "report_date": "2026-10-16",
+  "report_path": "data/reports/2026-10-16.json",
+  "report_commit_sha": "87dc4b9b536abfebf001376865d15c4c076ecd2a",
+  "report_blob_sha": "2662420659ea601b35f919db78614793ba56c97f",
+  "remote_json_verified": true,
+  "data_target_session": "2026-10-15",
+  "delayed_primary_observations": {
+    "US_Treasury_H15": "2026-10-14"
+  },
+  "quality": {
+    "scope": "16 indicators plus 80 representative stocks; four value fields each",
+    "required_fields": 384,
+    "missing_fields": 348,
+    "missing_pct": 90.63,
+    "training_eligible": false
+  },
+  "collection_status": "21 KIS rows received; sample conflicts quarantined",
+  "training_eligible": false,
+  "deployment": {
+    "id": "63f811be-0af8-447b-bec9-43383987587e",
+    "service_id": "ed170520-2868-49f0-8fe0-f090a60506e9",
+    "environment_id": "105ecc9c-d60e-4cdc-bda2-555515ba53f2",
+    "status": "SUCCESS",
+    "commit_sha": "87dc4b9b536abfebf001376865d15c4c076ecd2a",
+    "verified_at": "2026-10-15T23:42:49.323Z"
+  }
+}
