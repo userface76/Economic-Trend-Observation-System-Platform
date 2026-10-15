@@ -15,7 +15,8 @@
       "reference_date": "2026-10-15",
       "sources": [
         "https://newspim.com/news/view/20261015001061",
-        "https://www.yonhapnewstv.co.kr/news/AKR20261015153655x0d"
+        "https://www.yonhapnewstv.co.kr/news/AKR20261015153655x0d",
+        "data/reports/2026-10-09.json"
       ],
       "watch_items": [
         "KOSPI·KOSDAQ 상승종목 비중 50% 회복과 외국인 순매도 축소 동시 확인",
@@ -36,7 +37,8 @@
       "link": "https://www.tradingview.com/chart/?symbol=KRX%3AKOSDAQ",
       "reference_date": "2026-10-15",
       "sources": [
-        "https://search.newspim.com/news/view/20261015001061"
+        "https://search.newspim.com/news/view/20261015001061",
+        "data/reports/2026-10-09.json"
       ],
       "change_1w_reference_date": "2026-10-08",
       "change_1w_reference_value": 892.27
@@ -128,7 +130,7 @@
       "change_1d": "-2bp",
       "change_1w": null,
       "change_1m": null,
-      "interpretation": "공식 10/14 만기고정 수익률. 주식보다 기준일이 하루 늦어 동시성 해석에 제한.",
+      "interpretation": "공식 10/14 만기고정 수익률. 주식보다 하루 이전 관측이어서 동시성 해석에 제한.",
       "link": "https://www.tradingview.com/chart/?symbol=TVC%3AUS10Y",
       "reference_date": "2026-10-14",
       "sources": [
@@ -1544,6 +1546,20 @@
       "missing_fields": 348,
       "missing_pct": 90.63,
       "training_eligible": false
+    },
+    "validation": {
+      "json_syntax": true,
+      "korean_date": true,
+      "key_order": true,
+      "indicator_required_fields": true,
+      "top_stock_counts": {
+        "KR": 20,
+        "US": 20,
+        "JP": 20,
+        "CN": 20
+      },
+      "candidate_threshold": true,
+      "baseline_kr_week_verified_from_repository": true
     }
   }
 }
