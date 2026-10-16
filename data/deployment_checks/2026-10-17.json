@@ -1,0 +1,50 @@
+{
+  "report_date": "2026-10-17",
+  "data_commit_sha": "d6918d9e1012bafe9ce46913772018b26b9866bf",
+  "file_url": "https://github.com/userface76/Economic-Trend-Observation-System-Platform/blob/d6918d9e1012bafe9ce46913772018b26b9866bf/data/reports/2026-10-17.json",
+  "remote_file_readback_equal": true,
+  "data_reference_dates": {
+    "market_prices": "2026-10-16",
+    "official_us_yields": "2026-10-15",
+    "KR_raw_export": "2026-10-16"
+  },
+  "quality": {
+    "scope": "16 indicators and80stocks;4valuefields",
+    "required_fields": 384,
+    "missing_fields": 76,
+    "missing_pct": 19.79,
+    "secondary_stock_history_retrieved": 80,
+    "stock_fields_quarantined_on_KIS_close_conflict": 48,
+    "independent_cross_validation": "partial; unvalidated values excluded from training",
+    "training_eligible": false
+  },
+  "missing_items": [
+    "종목별 기관·외국인 수급 또는 ETF 자금 흐름",
+    "52주 저점·장기 일봉 기반 RSI·OBV·20일선 및 재시험 검증",
+    "심리 극단과 실적·현금흐름 전망의 괴리 자료",
+    "재무 안전성·부채·이자보상·희석 위험",
+    "금·구리 계약 일치 확정 결제가격",
+    "다수 거시지표 1개월 및 일부 1주 비교값",
+    "미국 공통기준 시장폭·KOSDAQ 시장폭 출처 불일치"
+  ],
+  "collection_status": "success; 21 KIS symbols; failures0",
+  "report_validation_status": "schema_passed; analytical_inputs_incomplete; not_eligible_for_training",
+  "railway": {
+    "project_id": "f01ab4d9-a996-44c6-852c-6d9371108f36",
+    "service_id": "ed170520-2868-49f0-8fe0-f090a60506e9",
+    "environment_id": "105ecc9c-d60e-4cdc-bda2-555515ba53f2",
+    "deployment_id": "245c282b-d99c-4993-8c51-b148551f8d1e",
+    "commit_sha": "d6918d9e1012bafe9ce46913772018b26b9866bf",
+    "status": "SUCCESS",
+    "completed_at": "2026-10-16T23:49:38.442Z",
+    "verification": "Railway deployment metadata matches remotely verified GitHub commit",
+    "http_content_check": "web_fetch_unavailable; live page body not independently checked"
+  },
+  "raw_KR_archive": {
+    "path": "data/market/KR/2026-10-16.json",
+    "preserved_existing": true,
+    "log_payload_trade_date_matches": true,
+    "status": "quarantined_pending_cross_validation"
+  },
+  "disclaimer": "저장·배포 성공은 시세 교차검증 또는 모델 학습 성공을 뜻하지 않음."
+}
