@@ -1,0 +1,2923 @@
+{
+  "trade_date": "2026-10-16",
+  "checked_at": "2026-10-16T23:49:01Z",
+  "source": "StockAnalysis date-specific histories",
+  "status": "secondary_observations_not_training",
+  "training_eligible": false,
+  "stocks": [
+    {
+      "ticker": "KRX:005930",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/005930/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 215500,
+          "volume": 19141988,
+          "change_pct": 2.62
+        },
+        {
+          "date": "2026-10-15",
+          "close": 210000,
+          "volume": 34330565,
+          "change_pct": -9.48
+        },
+        {
+          "date": "2026-10-08",
+          "close": 262000,
+          "volume": 21259056,
+          "change_pct": -2.42
+        },
+        {
+          "date": "2026-09-16",
+          "close": 253500,
+          "volume": 11757106,
+          "change_pct": 2.01
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:000660",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/000660/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 1272000,
+          "volume": 4709026,
+          "change_pct": 0.79
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1262000,
+          "volume": 5546237,
+          "change_pct": -11.06
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1681000,
+          "volume": 3203231,
+          "change_pct": -2.44
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1759000,
+          "volume": 2857754,
+          "change_pct": 4.08
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:373220",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/373220/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 403000,
+          "volume": 382591,
+          "change_pct": 0.12
+        },
+        {
+          "date": "2026-10-15",
+          "close": 402500,
+          "volume": 520603,
+          "change_pct": -4.62
+        },
+        {
+          "date": "2026-10-08",
+          "close": 401000,
+          "volume": 919337,
+          "change_pct": 2.56
+        },
+        {
+          "date": "2026-09-16",
+          "close": 367000,
+          "volume": 300276,
+          "change_pct": 0.41
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:207940",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/207940/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 1298000,
+          "volume": 161947,
+          "change_pct": 4.09
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1247000,
+          "volume": 136505,
+          "change_pct": 5.5
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1219000,
+          "volume": 81929,
+          "change_pct": -4.54
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1409000,
+          "volume": 33593,
+          "change_pct": -0.21
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:005380",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/005380/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 312000,
+          "volume": 854547,
+          "change_pct": 5.58
+        },
+        {
+          "date": "2026-10-15",
+          "close": 295500,
+          "volume": 755619,
+          "change_pct": -5.74
+        },
+        {
+          "date": "2026-10-08",
+          "close": 324500,
+          "volume": 685775,
+          "change_pct": -3.42
+        },
+        {
+          "date": "2026-09-16",
+          "close": 362000,
+          "volume": 482107,
+          "change_pct": -1.36
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:000270",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/000270/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 110200,
+          "volume": 911172,
+          "change_pct": 4.06
+        },
+        {
+          "date": "2026-10-15",
+          "close": 105900,
+          "volume": 1025329,
+          "change_pct": -2.49
+        },
+        {
+          "date": "2026-10-08",
+          "close": 106800,
+          "volume": 1298243,
+          "change_pct": -2.55
+        },
+        {
+          "date": "2026-09-16",
+          "close": 120700,
+          "volume": 529548,
+          "change_pct": -0.9
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:105560",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/105560/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 160000,
+          "volume": 987998,
+          "change_pct": 2.11
+        },
+        {
+          "date": "2026-10-15",
+          "close": 156700,
+          "volume": 1296676,
+          "change_pct": -1.57
+        },
+        {
+          "date": "2026-10-08",
+          "close": 162800,
+          "volume": 810487,
+          "change_pct": -3.38
+        },
+        {
+          "date": "2026-09-16",
+          "close": 176700,
+          "volume": 997736,
+          "change_pct": 0.51
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:035420",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/035420/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 180000,
+          "volume": 718947,
+          "change_pct": 3.69
+        },
+        {
+          "date": "2026-10-15",
+          "close": 173600,
+          "volume": 900130,
+          "change_pct": -3.23
+        },
+        {
+          "date": "2026-10-08",
+          "close": 183800,
+          "volume": 926786,
+          "change_pct": -2.75
+        },
+        {
+          "date": "2026-09-16",
+          "close": 201500,
+          "volume": 525238,
+          "change_pct": -2.18
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:012450",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/012450/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 888000,
+          "volume": 246594,
+          "change_pct": 7.77
+        },
+        {
+          "date": "2026-10-15",
+          "close": 824000,
+          "volume": 177780,
+          "change_pct": -2.14
+        },
+        {
+          "date": "2026-10-08",
+          "close": 891000,
+          "volume": 333333,
+          "change_pct": -8.33
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1055000,
+          "volume": 116401,
+          "change_pct": -0.75
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:329180",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/329180/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 351500,
+          "volume": 241684,
+          "change_pct": -0.28
+        },
+        {
+          "date": "2026-10-15",
+          "close": 352500,
+          "volume": 342179,
+          "change_pct": -4.47
+        },
+        {
+          "date": "2026-10-08",
+          "close": 384000,
+          "volume": 350061,
+          "change_pct": -4
+        },
+        {
+          "date": "2026-09-16",
+          "close": 440500,
+          "volume": 153713,
+          "change_pct": -2.87
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:068270",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/068270/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 194000,
+          "volume": 1150960,
+          "change_pct": 6.53
+        },
+        {
+          "date": "2026-10-15",
+          "close": 182100,
+          "volume": 818581,
+          "change_pct": 1.28
+        },
+        {
+          "date": "2026-10-08",
+          "close": 179600,
+          "volume": 461849,
+          "change_pct": -2.13
+        },
+        {
+          "date": "2026-09-16",
+          "close": 177200,
+          "volume": 259646,
+          "change_pct": -0.17
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:055550",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/055550/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 93400,
+          "volume": 1481736,
+          "change_pct": -0.85
+        },
+        {
+          "date": "2026-10-15",
+          "close": 94200,
+          "volume": 1363659,
+          "change_pct": -0.84
+        },
+        {
+          "date": "2026-10-08",
+          "close": 99500,
+          "volume": 1230949,
+          "change_pct": -3.68
+        },
+        {
+          "date": "2026-09-16",
+          "close": 112100,
+          "volume": 791458,
+          "change_pct": -0.09
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:028260",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/028260/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 286500,
+          "volume": 529624,
+          "change_pct": 7.1
+        },
+        {
+          "date": "2026-10-15",
+          "close": 267500,
+          "volume": 523477,
+          "change_pct": -8.23
+        },
+        {
+          "date": "2026-10-08",
+          "close": 317500,
+          "volume": 538853,
+          "change_pct": -5.51
+        },
+        {
+          "date": "2026-09-16",
+          "close": 353500,
+          "volume": 235782,
+          "change_pct": 1.87
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:005490",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/005490/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 296500,
+          "volume": 277814,
+          "change_pct": 1.54
+        },
+        {
+          "date": "2026-10-15",
+          "close": 292000,
+          "volume": 300973,
+          "change_pct": -5.5
+        },
+        {
+          "date": "2026-10-08",
+          "close": 306500,
+          "volume": 387135,
+          "change_pct": -0.33
+        },
+        {
+          "date": "2026-09-16",
+          "close": 326500,
+          "volume": 156849,
+          "change_pct": -1.66
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:012330",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/012330/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 352500,
+          "volume": 321156,
+          "change_pct": 4.44
+        },
+        {
+          "date": "2026-10-15",
+          "close": 337500,
+          "volume": 254858,
+          "change_pct": -5.86
+        },
+        {
+          "date": "2026-10-08",
+          "close": 359000,
+          "volume": 467512,
+          "change_pct": -3.88
+        },
+        {
+          "date": "2026-09-16",
+          "close": 383000,
+          "volume": 298400,
+          "change_pct": -2.92
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:032830",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/032830/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 238500,
+          "volume": 427606,
+          "change_pct": 4.61
+        },
+        {
+          "date": "2026-10-15",
+          "close": 228000,
+          "volume": 465017,
+          "change_pct": -7.51
+        },
+        {
+          "date": "2026-10-08",
+          "close": 269000,
+          "volume": 335818,
+          "change_pct": -4.27
+        },
+        {
+          "date": "2026-09-16",
+          "close": 283500,
+          "volume": 262214,
+          "change_pct": -0.7
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:035720",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/035720/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 31850,
+          "volume": 1818866,
+          "change_pct": 2.74
+        },
+        {
+          "date": "2026-10-15",
+          "close": 31000,
+          "volume": 1911906,
+          "change_pct": -2.21
+        },
+        {
+          "date": "2026-10-08",
+          "close": 32300,
+          "volume": 1712465,
+          "change_pct": -2.27
+        },
+        {
+          "date": "2026-09-16",
+          "close": 33500,
+          "volume": 1615415,
+          "change_pct": -2.9
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:402340",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/402340/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 784000,
+          "volume": 585194,
+          "change_pct": 2.48
+        },
+        {
+          "date": "2026-10-15",
+          "close": 765000,
+          "volume": 1062430,
+          "change_pct": -10.21
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1050000,
+          "volume": 964064,
+          "change_pct": -8.06
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1020000,
+          "volume": 379482,
+          "change_pct": 2
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:034020",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/034020/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 64600,
+          "volume": 2300285,
+          "change_pct": 2.05
+        },
+        {
+          "date": "2026-10-15",
+          "close": 63300,
+          "volume": 3413241,
+          "change_pct": -8.79
+        },
+        {
+          "date": "2026-10-08",
+          "close": 78000,
+          "volume": 4584327,
+          "change_pct": -3.11
+        },
+        {
+          "date": "2026-09-16",
+          "close": 83800,
+          "volume": 2140785,
+          "change_pct": -2.78
+        }
+      ]
+    },
+    {
+      "ticker": "KRX:006400",
+      "country": "KR",
+      "url": "https://stockanalysis.com/quote/krx/006400/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 530000,
+          "volume": 536630,
+          "change_pct": -1.85
+        },
+        {
+          "date": "2026-10-15",
+          "close": 540000,
+          "volume": 830827,
+          "change_pct": -8.63
+        },
+        {
+          "date": "2026-10-08",
+          "close": 569000,
+          "volume": 687104,
+          "change_pct": 1.25
+        },
+        {
+          "date": "2026-09-16",
+          "close": 544000,
+          "volume": 303354,
+          "change_pct": -0.55
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:NVDA",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/nvda/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 214.13,
+          "volume": 120746313,
+          "change_pct": -1.43
+        },
+        {
+          "date": "2026-10-15",
+          "close": 217.23,
+          "volume": 125446183,
+          "change_pct": -1.84
+        },
+        {
+          "date": "2026-10-09",
+          "close": 229.28,
+          "volume": 84144316,
+          "change_pct": -0.52
+        },
+        {
+          "date": "2026-10-08",
+          "close": 230.48,
+          "volume": 114193236,
+          "change_pct": -2.94
+        },
+        {
+          "date": "2026-09-16",
+          "close": 213.9,
+          "volume": 96563590,
+          "change_pct": 0.82
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:MSFT",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/msft/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 529.05,
+          "volume": 24644640,
+          "change_pct": -1.93
+        },
+        {
+          "date": "2026-10-15",
+          "close": 539.44,
+          "volume": 22476975,
+          "change_pct": 1.08
+        },
+        {
+          "date": "2026-10-09",
+          "close": 535.07,
+          "volume": 17812412,
+          "change_pct": 2.38
+        },
+        {
+          "date": "2026-10-08",
+          "close": 522.61,
+          "volume": 19575828,
+          "change_pct": -1.35
+        },
+        {
+          "date": "2026-09-16",
+          "close": 490.3,
+          "volume": 16670285,
+          "change_pct": -1.37
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:AAPL",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/aapl/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 343.46,
+          "volume": 59908939,
+          "change_pct": 0.43
+        },
+        {
+          "date": "2026-10-15",
+          "close": 342,
+          "volume": 38903176,
+          "change_pct": -0.28
+        },
+        {
+          "date": "2026-10-09",
+          "close": 336.64,
+          "volume": 37861059,
+          "change_pct": -1.11
+        },
+        {
+          "date": "2026-10-08",
+          "close": 340.42,
+          "volume": 35332449,
+          "change_pct": 1.11
+        },
+        {
+          "date": "2026-09-16",
+          "close": 332.41,
+          "volume": 35981000,
+          "change_pct": 0.32
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:AMZN",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/amzn/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 250,
+          "volume": 39189893,
+          "change_pct": -1.87
+        },
+        {
+          "date": "2026-10-15",
+          "close": 254.76,
+          "volume": 33990774,
+          "change_pct": 0.27
+        },
+        {
+          "date": "2026-10-09",
+          "close": 262.43,
+          "volume": 33425985,
+          "change_pct": 3.29
+        },
+        {
+          "date": "2026-10-08",
+          "close": 254.06,
+          "volume": 35484244,
+          "change_pct": -2.25
+        },
+        {
+          "date": "2026-09-16",
+          "close": 245.96,
+          "volume": 33488488,
+          "change_pct": -0.99
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:GOOGL",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/googl/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 340.59,
+          "volume": 28220309,
+          "change_pct": -2.47
+        },
+        {
+          "date": "2026-10-15",
+          "close": 349.22,
+          "volume": 20739949,
+          "change_pct": 0.45
+        },
+        {
+          "date": "2026-10-09",
+          "close": 351.66,
+          "volume": 17281499,
+          "change_pct": 0.97
+        },
+        {
+          "date": "2026-10-08",
+          "close": 348.29,
+          "volume": 23511137,
+          "change_pct": -0.63
+        },
+        {
+          "date": "2026-09-16",
+          "close": 342.87,
+          "volume": 18928864,
+          "change_pct": -0.61
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:META",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/meta/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 709.33,
+          "volume": 20599048,
+          "change_pct": -3.72
+        },
+        {
+          "date": "2026-10-15",
+          "close": 736.72,
+          "volume": 15360712,
+          "change_pct": -0.11
+        },
+        {
+          "date": "2026-10-09",
+          "close": 718.67,
+          "volume": 12541096,
+          "change_pct": -0.31
+        },
+        {
+          "date": "2026-10-08",
+          "close": 720.89,
+          "volume": 14762222,
+          "change_pct": -0.06
+        },
+        {
+          "date": "2026-09-16",
+          "close": 673.31,
+          "volume": 17217834,
+          "change_pct": 0.46
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:AVGO",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/avgo/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 328.75,
+          "volume": 29671486,
+          "change_pct": -4.52
+        },
+        {
+          "date": "2026-10-15",
+          "close": 344.33,
+          "volume": 25946401,
+          "change_pct": -0.55
+        },
+        {
+          "date": "2026-10-09",
+          "close": 361.54,
+          "volume": 16403918,
+          "change_pct": 0.39
+        },
+        {
+          "date": "2026-10-08",
+          "close": 360.14,
+          "volume": 25995543,
+          "change_pct": -4.35
+        },
+        {
+          "date": "2026-09-16",
+          "close": 339.51,
+          "volume": 23152533,
+          "change_pct": 0.07
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:TSLA",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/tsla/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 354.72,
+          "volume": 62118335,
+          "change_pct": -2.13
+        },
+        {
+          "date": "2026-10-15",
+          "close": 362.44,
+          "volume": 26728314,
+          "change_pct": -1.29
+        },
+        {
+          "date": "2026-10-09",
+          "close": 382.7,
+          "volume": 38952426,
+          "change_pct": 2.05
+        },
+        {
+          "date": "2026-10-08",
+          "close": 375,
+          "volume": 28394945,
+          "change_pct": -0.74
+        },
+        {
+          "date": "2026-09-16",
+          "close": 358.08,
+          "volume": 32177388,
+          "change_pct": 0.42
+        }
+      ]
+    },
+    {
+      "ticker": "NYSE:BRK.B",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 532.02,
+          "volume": 4024001,
+          "change_pct": 1.21
+        },
+        {
+          "date": "2026-10-15",
+          "close": 525.68,
+          "volume": 4143692,
+          "change_pct": -0.13
+        },
+        {
+          "date": "2026-10-09",
+          "close": 515.62,
+          "volume": 4290131,
+          "change_pct": 0.89
+        },
+        {
+          "date": "2026-09-16",
+          "close": 519.8,
+          "volume": 5167869,
+          "change_pct": 0.59
+        }
+      ]
+    },
+    {
+      "ticker": "NYSE:JPM",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/jpm/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 339.72,
+          "volume": 8415534,
+          "change_pct": 1.25
+        },
+        {
+          "date": "2026-10-15",
+          "close": 335.53,
+          "volume": 8648078,
+          "change_pct": 0.07
+        },
+        {
+          "date": "2026-10-09",
+          "close": 332.99,
+          "volume": 4910761,
+          "change_pct": 0.47
+        },
+        {
+          "date": "2026-10-08",
+          "close": 331.42,
+          "volume": 7664997,
+          "change_pct": 0.56
+        },
+        {
+          "date": "2026-09-16",
+          "close": 348.92,
+          "volume": 8307796,
+          "change_pct": -1.01
+        }
+      ]
+    },
+    {
+      "ticker": "NYSE:WMT",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/wmt/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 118.81,
+          "volume": 20559568,
+          "change_pct": 0.8
+        },
+        {
+          "date": "2026-10-15",
+          "close": 117.87,
+          "volume": 31925064,
+          "change_pct": 1.47
+        },
+        {
+          "date": "2026-10-09",
+          "close": 111.35,
+          "volume": 11813267,
+          "change_pct": 0.71
+        },
+        {
+          "date": "2026-10-08",
+          "close": 110.56,
+          "volume": 23767669,
+          "change_pct": 2.22
+        },
+        {
+          "date": "2026-09-16",
+          "close": 107.5,
+          "volume": 15150852,
+          "change_pct": -0.55
+        }
+      ]
+    },
+    {
+      "ticker": "NYSE:LLY",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/lly/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 1257.03,
+          "volume": 2385226,
+          "change_pct": 0.43
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1251.61,
+          "volume": 3729139,
+          "change_pct": 3.55
+        },
+        {
+          "date": "2026-10-09",
+          "close": 1179.27,
+          "volume": 1383258,
+          "change_pct": 0.83
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1169.6,
+          "volume": 3036381,
+          "change_pct": -1.61
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1137.82,
+          "volume": 1476270,
+          "change_pct": 0.15
+        }
+      ]
+    },
+    {
+      "ticker": "NYSE:V",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/v/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 402.61,
+          "volume": 6785343,
+          "change_pct": 0.72
+        },
+        {
+          "date": "2026-10-15",
+          "close": 399.75,
+          "volume": 8573036,
+          "change_pct": 2.13
+        },
+        {
+          "date": "2026-10-09",
+          "close": 385.45,
+          "volume": 5813749,
+          "change_pct": 2.76
+        },
+        {
+          "date": "2026-10-08",
+          "close": 375.1,
+          "volume": 6384780,
+          "change_pct": 0.81
+        },
+        {
+          "date": "2026-09-16",
+          "close": 370.93,
+          "volume": 7203875,
+          "change_pct": -1.25
+        }
+      ]
+    },
+    {
+      "ticker": "NYSE:XOM",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/xom/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 178.98,
+          "volume": 13130411,
+          "change_pct": 2.46
+        },
+        {
+          "date": "2026-10-15",
+          "close": 174.68,
+          "volume": 11194714,
+          "change_pct": -1.32
+        },
+        {
+          "date": "2026-10-09",
+          "close": 168.94,
+          "volume": 8051651,
+          "change_pct": 0.26
+        },
+        {
+          "date": "2026-10-08",
+          "close": 168.5,
+          "volume": 13220618,
+          "change_pct": 2.71
+        },
+        {
+          "date": "2026-09-16",
+          "close": 163.32,
+          "volume": 13263022,
+          "change_pct": -3.54
+        }
+      ]
+    },
+    {
+      "ticker": "NYSE:MA",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/ma/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 617.42,
+          "volume": 3360511,
+          "change_pct": 0.18
+        },
+        {
+          "date": "2026-10-15",
+          "close": 616.32,
+          "volume": 4180175,
+          "change_pct": 2.17
+        },
+        {
+          "date": "2026-10-09",
+          "close": 589.14,
+          "volume": 2421157,
+          "change_pct": 2.66
+        },
+        {
+          "date": "2026-10-08",
+          "close": 574.76,
+          "volume": 3390061,
+          "change_pct": 0.82
+        },
+        {
+          "date": "2026-09-16",
+          "close": 567.75,
+          "volume": 2385659,
+          "change_pct": -0.96
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:NFLX",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/nflx/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 70.53,
+          "volume": 40491211,
+          "change_pct": -2.86
+        },
+        {
+          "date": "2026-10-15",
+          "close": 72.61,
+          "volume": 40032817,
+          "change_pct": 2.89
+        },
+        {
+          "date": "2026-10-09",
+          "close": 70.3,
+          "volume": 28879823,
+          "change_pct": -1.77
+        },
+        {
+          "date": "2026-10-08",
+          "close": 71.57,
+          "volume": 45691629,
+          "change_pct": 2.68
+        },
+        {
+          "date": "2026-09-16",
+          "close": 76.41,
+          "volume": 25376274,
+          "change_pct": -1.91
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:COST",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/cost/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 989.11,
+          "volume": 2384027,
+          "change_pct": 1.13
+        },
+        {
+          "date": "2026-10-15",
+          "close": 978.01,
+          "volume": 2986031,
+          "change_pct": -0.41
+        },
+        {
+          "date": "2026-10-09",
+          "close": 946.92,
+          "volume": 1485285,
+          "change_pct": -0.11
+        },
+        {
+          "date": "2026-10-08",
+          "close": 947.92,
+          "volume": 2081099,
+          "change_pct": 0.6
+        },
+        {
+          "date": "2026-09-16",
+          "close": 893.74,
+          "volume": 2101651,
+          "change_pct": -0.84
+        }
+      ]
+    },
+    {
+      "ticker": "NYSE:ORCL",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/orcl/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 128.23,
+          "volume": 34902602,
+          "change_pct": -4.64
+        },
+        {
+          "date": "2026-10-15",
+          "close": 134.47,
+          "volume": 30031789,
+          "change_pct": 3
+        },
+        {
+          "date": "2026-10-09",
+          "close": 141.4,
+          "volume": 25422072,
+          "change_pct": 4.59
+        },
+        {
+          "date": "2026-10-08",
+          "close": 135.69,
+          "volume": 41212498,
+          "change_pct": -5.48
+        },
+        {
+          "date": "2026-09-16",
+          "close": 143.16,
+          "volume": 34366403,
+          "change_pct": 2
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:PLTR",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/pltr/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 186.03,
+          "volume": 33230915,
+          "change_pct": -7.22
+        },
+        {
+          "date": "2026-10-15",
+          "close": 200.5,
+          "volume": 24652457,
+          "change_pct": -0.23
+        },
+        {
+          "date": "2026-10-09",
+          "close": 209.05,
+          "volume": 37292284,
+          "change_pct": 5.17
+        },
+        {
+          "date": "2026-10-08",
+          "close": 198.78,
+          "volume": 41710157,
+          "change_pct": 2.4
+        },
+        {
+          "date": "2026-09-16",
+          "close": 174.34,
+          "volume": 20983996,
+          "change_pct": 1.03
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:AMD",
+      "country": "US",
+      "url": "https://stockanalysis.com/stocks/amd/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 528.75,
+          "volume": 22387652,
+          "change_pct": -5.95
+        },
+        {
+          "date": "2026-10-15",
+          "close": 562.23,
+          "volume": 28470662,
+          "change_pct": -1.5
+        },
+        {
+          "date": "2026-10-09",
+          "close": 608.1,
+          "volume": 13733349,
+          "change_pct": -2.03
+        },
+        {
+          "date": "2026-10-08",
+          "close": 620.68,
+          "volume": 23488164,
+          "change_pct": -3.9
+        },
+        {
+          "date": "2026-09-16",
+          "close": 512.5,
+          "volume": 22317673,
+          "change_pct": 1.65
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:7203",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/7203/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 3094,
+          "volume": 25007500,
+          "change_pct": 2.15
+        },
+        {
+          "date": "2026-10-15",
+          "close": 3029,
+          "volume": 32262800,
+          "change_pct": 0.6
+        },
+        {
+          "date": "2026-10-09",
+          "close": 2910.5,
+          "volume": 17845800,
+          "change_pct": 0.29
+        },
+        {
+          "date": "2026-10-08",
+          "close": 2902,
+          "volume": 21975200,
+          "change_pct": 0.05
+        },
+        {
+          "date": "2026-09-16",
+          "close": 3016,
+          "volume": 17508600,
+          "change_pct": -0.17
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:8306",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/8306/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 3475,
+          "volume": 28193000,
+          "change_pct": 1.82
+        },
+        {
+          "date": "2026-10-15",
+          "close": 3413,
+          "volume": 36804600,
+          "change_pct": -1.98
+        },
+        {
+          "date": "2026-10-09",
+          "close": 3462,
+          "volume": 34400600,
+          "change_pct": -1.2
+        },
+        {
+          "date": "2026-10-08",
+          "close": 3504,
+          "volume": 36874400,
+          "change_pct": -3.26
+        },
+        {
+          "date": "2026-09-16",
+          "close": 3655,
+          "volume": 33677700,
+          "change_pct": -0.35
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:6758",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/6758/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 3959,
+          "volume": 18570000,
+          "change_pct": 1.93
+        },
+        {
+          "date": "2026-10-15",
+          "close": 3884,
+          "volume": 16190900,
+          "change_pct": 0.65
+        },
+        {
+          "date": "2026-10-09",
+          "close": 3814,
+          "volume": 15660300,
+          "change_pct": 2.91
+        },
+        {
+          "date": "2026-10-08",
+          "close": 3706,
+          "volume": 10556700,
+          "change_pct": -0.99
+        },
+        {
+          "date": "2026-09-16",
+          "close": 3719,
+          "volume": 9045400,
+          "change_pct": -0.16
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:6501",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/6501/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 5770,
+          "volume": 11872200,
+          "change_pct": 3.13
+        },
+        {
+          "date": "2026-10-15",
+          "close": 5595,
+          "volume": 12643400,
+          "change_pct": -3.68
+        },
+        {
+          "date": "2026-10-09",
+          "close": 5669,
+          "volume": 8136200,
+          "change_pct": 1.29
+        },
+        {
+          "date": "2026-10-08",
+          "close": 5597,
+          "volume": 8036800,
+          "change_pct": -0.92
+        },
+        {
+          "date": "2026-09-16",
+          "close": 5372,
+          "volume": 7394100,
+          "change_pct": 2.89
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:9984",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/9984/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 4944,
+          "volume": 43833700,
+          "change_pct": 1.9
+        },
+        {
+          "date": "2026-10-15",
+          "close": 4852,
+          "volume": 75165400,
+          "change_pct": -9.33
+        },
+        {
+          "date": "2026-10-09",
+          "close": 5803,
+          "volume": 72262300,
+          "change_pct": -3.92
+        },
+        {
+          "date": "2026-10-08",
+          "close": 6040,
+          "volume": 37800600,
+          "change_pct": -4.28
+        },
+        {
+          "date": "2026-09-16",
+          "close": 6183,
+          "volume": 67198800,
+          "change_pct": -1.53
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:7974",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/7974/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 8479,
+          "volume": 9276200,
+          "change_pct": 3.05
+        },
+        {
+          "date": "2026-10-15",
+          "close": 8228,
+          "volume": 9835700,
+          "change_pct": -0.6
+        },
+        {
+          "date": "2026-10-09",
+          "close": 8146,
+          "volume": 11017700,
+          "change_pct": 3.76
+        },
+        {
+          "date": "2026-10-08",
+          "close": 7851,
+          "volume": 6138100,
+          "change_pct": 0.98
+        },
+        {
+          "date": "2026-09-16",
+          "close": 8126,
+          "volume": 4574300,
+          "change_pct": 0.1
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:6861",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/6861/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 80760,
+          "volume": 533800,
+          "change_pct": 2.27
+        },
+        {
+          "date": "2026-10-15",
+          "close": 78970,
+          "volume": 761600,
+          "change_pct": -1.69
+        },
+        {
+          "date": "2026-10-09",
+          "close": 80540,
+          "volume": 439700,
+          "change_pct": 0.68
+        },
+        {
+          "date": "2026-10-08",
+          "close": 80000,
+          "volume": 532700,
+          "change_pct": -1.91
+        },
+        {
+          "date": "2026-09-16",
+          "close": 75900,
+          "volume": 438800,
+          "change_pct": 0.32
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:6098",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/6098/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 18420,
+          "volume": 5104400,
+          "change_pct": 0.22
+        },
+        {
+          "date": "2026-10-15",
+          "close": 18380,
+          "volume": 5790600,
+          "change_pct": 0.44
+        },
+        {
+          "date": "2026-10-09",
+          "close": 17755,
+          "volume": 4034700,
+          "change_pct": 3.23
+        },
+        {
+          "date": "2026-10-08",
+          "close": 17200,
+          "volume": 3998900,
+          "change_pct": 1.18
+        },
+        {
+          "date": "2026-09-16",
+          "close": 17155,
+          "volume": 5367800,
+          "change_pct": 1.84
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:9983",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/9983/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 75580,
+          "volume": 1219700,
+          "change_pct": -1.07
+        },
+        {
+          "date": "2026-10-15",
+          "close": 76400,
+          "volume": 1707300,
+          "change_pct": 0.74
+        },
+        {
+          "date": "2026-10-09",
+          "close": 71780,
+          "volume": 1864600,
+          "change_pct": -4.04
+        },
+        {
+          "date": "2026-10-08",
+          "close": 74800,
+          "volume": 922900,
+          "change_pct": 0.03
+        },
+        {
+          "date": "2026-09-16",
+          "close": 67030,
+          "volume": 865300,
+          "change_pct": 0.62
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:8316",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/8316/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 3276,
+          "volume": 18002200,
+          "change_pct": 1.68
+        },
+        {
+          "date": "2026-10-15",
+          "close": 3222,
+          "volume": 21400200,
+          "change_pct": -1.92
+        },
+        {
+          "date": "2026-10-09",
+          "close": 3256,
+          "volume": 18614000,
+          "change_pct": -1.24
+        },
+        {
+          "date": "2026-10-08",
+          "close": 3297,
+          "volume": 18057300,
+          "change_pct": -2.22
+        },
+        {
+          "date": "2026-09-16",
+          "close": 3421,
+          "volume": 20440200,
+          "change_pct": null
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:8035",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/8035/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 10630,
+          "volume": 11396000,
+          "change_pct": 2.56
+        },
+        {
+          "date": "2026-10-15",
+          "close": 10365,
+          "volume": 19990400,
+          "change_pct": -7.78
+        },
+        {
+          "date": "2026-10-09",
+          "close": 12445,
+          "volume": 13709400,
+          "change_pct": 2.09
+        },
+        {
+          "date": "2026-10-08",
+          "close": 12190,
+          "volume": 8853400,
+          "change_pct": -2.48
+        },
+        {
+          "date": "2026-09-16",
+          "close": 10338,
+          "volume": 10182500,
+          "change_pct": 2.05
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:8411",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/8411/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 8042,
+          "volume": 7037700,
+          "change_pct": 1.73
+        },
+        {
+          "date": "2026-10-15",
+          "close": 7905,
+          "volume": 11832600,
+          "change_pct": -2.84
+        },
+        {
+          "date": "2026-10-09",
+          "close": 8214,
+          "volume": 10111400,
+          "change_pct": -1.63
+        },
+        {
+          "date": "2026-10-08",
+          "close": 8350,
+          "volume": 9197800,
+          "change_pct": -3.4
+        },
+        {
+          "date": "2026-09-16",
+          "close": 8566,
+          "volume": 6671500,
+          "change_pct": -0.37
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:9432",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/9432/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 174.5,
+          "volume": 152343000,
+          "change_pct": 0.69
+        },
+        {
+          "date": "2026-10-15",
+          "close": 173.3,
+          "volume": 188163000,
+          "change_pct": 0.46
+        },
+        {
+          "date": "2026-10-09",
+          "close": 172.9,
+          "volume": 152027700,
+          "change_pct": 0.46
+        },
+        {
+          "date": "2026-10-08",
+          "close": 172.1,
+          "volume": 169670000,
+          "change_pct": null
+        },
+        {
+          "date": "2026-09-16",
+          "close": 177.1,
+          "volume": 152906500,
+          "change_pct": -0.56
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:8058",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/8058/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 4726,
+          "volume": 7650800,
+          "change_pct": 1.11
+        },
+        {
+          "date": "2026-10-15",
+          "close": 4674,
+          "volume": 8993000,
+          "change_pct": -1.87
+        },
+        {
+          "date": "2026-10-09",
+          "close": 4596,
+          "volume": 6794900,
+          "change_pct": 0.13
+        },
+        {
+          "date": "2026-10-08",
+          "close": 4590,
+          "volume": 8768100,
+          "change_pct": -1.84
+        },
+        {
+          "date": "2026-09-16",
+          "close": 4944,
+          "volume": 6513200,
+          "change_pct": 0.69
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:8001",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/8001/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 2284,
+          "volume": 20179800,
+          "change_pct": 2.84
+        },
+        {
+          "date": "2026-10-15",
+          "close": 2221,
+          "volume": 16713700,
+          "change_pct": -0.49
+        },
+        {
+          "date": "2026-10-09",
+          "close": 2155,
+          "volume": 14625800,
+          "change_pct": 0.77
+        },
+        {
+          "date": "2026-10-08",
+          "close": 2138.5,
+          "volume": 14428200,
+          "change_pct": -1.06
+        },
+        {
+          "date": "2026-09-16",
+          "close": 2322.5,
+          "volume": 15843700,
+          "change_pct": 0.06
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:6857",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/6857/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 34530,
+          "volume": 15706300,
+          "change_pct": 0.55
+        },
+        {
+          "date": "2026-10-15",
+          "close": 34340,
+          "volume": 26184300,
+          "change_pct": -14.96
+        },
+        {
+          "date": "2026-10-09",
+          "close": 41610,
+          "volume": 14785500,
+          "change_pct": 1.66
+        },
+        {
+          "date": "2026-10-08",
+          "close": 40930,
+          "volume": 12892600,
+          "change_pct": -0.87
+        },
+        {
+          "date": "2026-09-16",
+          "close": 30700,
+          "volume": 6536400,
+          "change_pct": 1.79
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:7267",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/7267/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 1797.5,
+          "volume": 19084500,
+          "change_pct": 1.21
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1776,
+          "volume": 22064900,
+          "change_pct": 0.03
+        },
+        {
+          "date": "2026-10-09",
+          "close": 1726.5,
+          "volume": 19526300,
+          "change_pct": 0.82
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1712.5,
+          "volume": 17992200,
+          "change_pct": 1.72
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1684.5,
+          "volume": 9501600,
+          "change_pct": 0.57
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:4063",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/4063/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 5978,
+          "volume": 5814800,
+          "change_pct": 0.25
+        },
+        {
+          "date": "2026-10-15",
+          "close": 5963,
+          "volume": 7583700,
+          "change_pct": -3.43
+        },
+        {
+          "date": "2026-10-09",
+          "close": 6085,
+          "volume": 5488600,
+          "change_pct": -0.59
+        },
+        {
+          "date": "2026-10-08",
+          "close": 6121,
+          "volume": 5197100,
+          "change_pct": -1.81
+        },
+        {
+          "date": "2026-09-16",
+          "close": 5820,
+          "volume": 5332500,
+          "change_pct": 2.23
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:4568",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/4568/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 2740.5,
+          "volume": 9934300,
+          "change_pct": 3.38
+        },
+        {
+          "date": "2026-10-15",
+          "close": 2651,
+          "volume": 8041900,
+          "change_pct": 1.92
+        },
+        {
+          "date": "2026-10-09",
+          "close": 2623,
+          "volume": 7552400,
+          "change_pct": -1.15
+        },
+        {
+          "date": "2026-10-08",
+          "close": 2653.5,
+          "volume": 7822400,
+          "change_pct": -1.81
+        },
+        {
+          "date": "2026-09-16",
+          "close": 2839,
+          "volume": 4148000,
+          "change_pct": 0.09
+        }
+      ]
+    },
+    {
+      "ticker": "TSE:8766",
+      "country": "JP",
+      "url": "https://stockanalysis.com/quote/tyo/8766/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 558.3,
+          "volume": 94117600,
+          "change_pct": 2.89
+        },
+        {
+          "date": "2026-10-15",
+          "close": 542.6,
+          "volume": 121864500,
+          "change_pct": 2.57
+        },
+        {
+          "date": "2026-10-09",
+          "close": 525.7,
+          "volume": 94656300,
+          "change_pct": 1.47
+        },
+        {
+          "date": "2026-10-08",
+          "close": 518.1,
+          "volume": 103752200,
+          "change_pct": 0.41
+        },
+        {
+          "date": "2026-09-16",
+          "close": 540,
+          "volume": 83492999,
+          "change_pct": 0.26
+        }
+      ]
+    },
+    {
+      "ticker": "HKEX:700",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/hkg/0700/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 417.8,
+          "volume": 18752869,
+          "change_pct": null
+        },
+        {
+          "date": "2026-10-15",
+          "close": 417.8,
+          "volume": 20676017,
+          "change_pct": -1.32
+        },
+        {
+          "date": "2026-10-09",
+          "close": 424.8,
+          "volume": 20422500,
+          "change_pct": 3.26
+        },
+        {
+          "date": "2026-10-08",
+          "close": 411.4,
+          "volume": 30202875,
+          "change_pct": -2.19
+        },
+        {
+          "date": "2026-09-16",
+          "close": 433.4,
+          "volume": 12686315,
+          "change_pct": -1.23
+        }
+      ]
+    },
+    {
+      "ticker": "HKEX:9988",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/hkg/9988/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 108.8,
+          "volume": 51611190,
+          "change_pct": 2.26
+        },
+        {
+          "date": "2026-10-15",
+          "close": 106.4,
+          "volume": 79762680,
+          "change_pct": -3.71
+        },
+        {
+          "date": "2026-10-09",
+          "close": 107,
+          "volume": 72349748,
+          "change_pct": 2.59
+        },
+        {
+          "date": "2026-10-08",
+          "close": 104.3,
+          "volume": 66440070,
+          "change_pct": -1.04
+        },
+        {
+          "date": "2026-09-16",
+          "close": 106.2,
+          "volume": 34061594,
+          "change_pct": -0.93
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:600519",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/600519/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 1329,
+          "volume": 3850175,
+          "change_pct": 1.22
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1312.97,
+          "volume": 5767722,
+          "change_pct": 2.1
+        },
+        {
+          "date": "2026-10-09",
+          "close": 1263,
+          "volume": 3511051,
+          "change_pct": 0.57
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1255.79,
+          "volume": 2516757,
+          "change_pct": -0.22
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1258,
+          "volume": 2623524,
+          "change_pct": -1.16
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:601398",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/601398/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 8.48,
+          "volume": 321920585,
+          "change_pct": -0.24
+        },
+        {
+          "date": "2026-10-15",
+          "close": 8.5,
+          "volume": 333125606,
+          "change_pct": 0.59
+        },
+        {
+          "date": "2026-10-09",
+          "close": 8.22,
+          "volume": 338703258,
+          "change_pct": -1.08
+        },
+        {
+          "date": "2026-10-08",
+          "close": 8.31,
+          "volume": 315839979,
+          "change_pct": 0.36
+        },
+        {
+          "date": "2026-09-16",
+          "close": 8.11,
+          "volume": 227092480,
+          "change_pct": -0.25
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:601939",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/601939/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 11.45,
+          "volume": 94495127,
+          "change_pct": null
+        },
+        {
+          "date": "2026-10-15",
+          "close": 11.45,
+          "volume": 109269444,
+          "change_pct": 0.44
+        },
+        {
+          "date": "2026-10-09",
+          "close": 10.98,
+          "volume": 126880367,
+          "change_pct": -1.52
+        },
+        {
+          "date": "2026-10-08",
+          "close": 11.15,
+          "volume": 95478161,
+          "change_pct": 0.81
+        },
+        {
+          "date": "2026-09-16",
+          "close": 10.85,
+          "volume": 79870288,
+          "change_pct": -0.73
+        }
+      ]
+    },
+    {
+      "ticker": "SZSE:002594",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/she/002594/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 82.72,
+          "volume": 21385362,
+          "change_pct": 0.58
+        },
+        {
+          "date": "2026-10-15",
+          "close": 82.24,
+          "volume": 24275403,
+          "change_pct": 0.98
+        },
+        {
+          "date": "2026-10-09",
+          "close": 84.95,
+          "volume": 40197743,
+          "change_pct": 3.95
+        },
+        {
+          "date": "2026-10-08",
+          "close": 81.72,
+          "volume": 24840572,
+          "change_pct": -1.91
+        },
+        {
+          "date": "2026-09-16",
+          "close": 83.96,
+          "volume": 17642347,
+          "change_pct": -0.4
+        }
+      ]
+    },
+    {
+      "ticker": "SZSE:300750",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/she/300750/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 277,
+          "volume": 30237745,
+          "change_pct": -0.54
+        },
+        {
+          "date": "2026-10-15",
+          "close": 278.5,
+          "volume": 41995232,
+          "change_pct": -0.58
+        },
+        {
+          "date": "2026-10-09",
+          "close": 297.75,
+          "volume": 54152671,
+          "change_pct": 3.84
+        },
+        {
+          "date": "2026-10-08",
+          "close": 286.75,
+          "volume": 36682465,
+          "change_pct": -1.5
+        },
+        {
+          "date": "2026-09-16",
+          "close": 305.48,
+          "volume": 78716301,
+          "change_pct": -3.44
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:600941",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/600941/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 101.4,
+          "volume": 10783807,
+          "change_pct": -0.1
+        },
+        {
+          "date": "2026-10-15",
+          "close": 101.5,
+          "volume": 16137453,
+          "change_pct": 1.01
+        },
+        {
+          "date": "2026-10-09",
+          "close": 97.98,
+          "volume": 12830742,
+          "change_pct": 0.02
+        },
+        {
+          "date": "2026-10-08",
+          "close": 97.96,
+          "volume": 13240767,
+          "change_pct": 2.25
+        },
+        {
+          "date": "2026-09-16",
+          "close": 96.94,
+          "volume": 5951804,
+          "change_pct": -0.87
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:601288",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/601288/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 7.24,
+          "volume": 334555315,
+          "change_pct": -0.28
+        },
+        {
+          "date": "2026-10-15",
+          "close": 7.26,
+          "volume": 392995608,
+          "change_pct": 1.11
+        },
+        {
+          "date": "2026-10-09",
+          "close": 6.98,
+          "volume": 341751781,
+          "change_pct": -0.57
+        },
+        {
+          "date": "2026-10-08",
+          "close": 7.02,
+          "volume": 299711764,
+          "change_pct": 0.72
+        },
+        {
+          "date": "2026-09-16",
+          "close": 6.88,
+          "volume": 208287793,
+          "change_pct": -0.29
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:601857",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/601857/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 12.76,
+          "volume": 153135243,
+          "change_pct": 1.35
+        },
+        {
+          "date": "2026-10-15",
+          "close": 12.59,
+          "volume": 244381755,
+          "change_pct": 0.32
+        },
+        {
+          "date": "2026-10-09",
+          "close": 11.6,
+          "volume": 171902089,
+          "change_pct": 0.09
+        },
+        {
+          "date": "2026-10-08",
+          "close": 11.59,
+          "volume": 154596179,
+          "change_pct": 3.39
+        },
+        {
+          "date": "2026-09-16",
+          "close": 10.81,
+          "volume": 113251304,
+          "change_pct": -0.37
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:601318",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/601318/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 51.88,
+          "volume": 66453701,
+          "change_pct": 0.19
+        },
+        {
+          "date": "2026-10-15",
+          "close": 51.78,
+          "volume": 82917159,
+          "change_pct": 1.07
+        },
+        {
+          "date": "2026-10-09",
+          "close": 52.83,
+          "volume": 59593634,
+          "change_pct": 0.3
+        },
+        {
+          "date": "2026-10-08",
+          "close": 52.67,
+          "volume": 59624310,
+          "change_pct": -1.16
+        },
+        {
+          "date": "2026-09-16",
+          "close": 53.51,
+          "volume": 56030812,
+          "change_pct": -0.72
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:601988",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/601988/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 6.92,
+          "volume": 445143778,
+          "change_pct": -1.84
+        },
+        {
+          "date": "2026-10-15",
+          "close": 7.05,
+          "volume": 333687710,
+          "change_pct": 0.28
+        },
+        {
+          "date": "2026-10-09",
+          "close": 6.77,
+          "volume": 297887233,
+          "change_pct": -0.59
+        },
+        {
+          "date": "2026-10-08",
+          "close": 6.81,
+          "volume": 259926729,
+          "change_pct": 1.19
+        },
+        {
+          "date": "2026-09-16",
+          "close": 6.56,
+          "volume": 179649196,
+          "change_pct": -0.15
+        }
+      ]
+    },
+    {
+      "ticker": "NASDAQ:PDD",
+      "country": "CN",
+      "url": "https://stockanalysis.com/stocks/pdd/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 80.97,
+          "volume": 4555958,
+          "change_pct": -1.76
+        },
+        {
+          "date": "2026-10-15",
+          "close": 82.42,
+          "volume": 5788505,
+          "change_pct": 1.19
+        },
+        {
+          "date": "2026-10-09",
+          "close": 81.35,
+          "volume": 6734175,
+          "change_pct": 3.95
+        },
+        {
+          "date": "2026-10-08",
+          "close": 78.26,
+          "volume": 4819352,
+          "change_pct": -0.31
+        },
+        {
+          "date": "2026-09-16",
+          "close": 78.76,
+          "volume": 6583238,
+          "change_pct": 0.87
+        }
+      ]
+    },
+    {
+      "ticker": "HKEX:3690",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/hkg/3690/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 75.7,
+          "volume": 22668265,
+          "change_pct": 0.33
+        },
+        {
+          "date": "2026-10-15",
+          "close": 75.45,
+          "volume": 33710890,
+          "change_pct": -2.14
+        },
+        {
+          "date": "2026-10-09",
+          "close": 71.5,
+          "volume": 23926880,
+          "change_pct": 3.03
+        },
+        {
+          "date": "2026-10-08",
+          "close": 69.4,
+          "volume": 22673514,
+          "change_pct": -1.07
+        },
+        {
+          "date": "2026-09-16",
+          "close": 74.45,
+          "volume": 16747522,
+          "change_pct": -0.4
+        }
+      ]
+    },
+    {
+      "ticker": "HKEX:1810",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/hkg/1810/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 26.66,
+          "volume": 154063468,
+          "change_pct": -1.55
+        },
+        {
+          "date": "2026-10-15",
+          "close": 27.08,
+          "volume": 266494588,
+          "change_pct": 2.65
+        },
+        {
+          "date": "2026-10-09",
+          "close": 25.96,
+          "volume": 255608451,
+          "change_pct": 9.72
+        },
+        {
+          "date": "2026-10-08",
+          "close": 23.66,
+          "volume": 97457649,
+          "change_pct": -1.17
+        },
+        {
+          "date": "2026-09-16",
+          "close": 26.18,
+          "volume": 74216945,
+          "change_pct": -1.21
+        }
+      ]
+    },
+    {
+      "ticker": "SSE:600036",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/sha/600036/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 42.45,
+          "volume": 84091335,
+          "change_pct": -0.49
+        },
+        {
+          "date": "2026-10-15",
+          "close": 42.66,
+          "volume": 95041830,
+          "change_pct": -0.02
+        },
+        {
+          "date": "2026-10-09",
+          "close": 41.42,
+          "volume": 86192401,
+          "change_pct": -0.7
+        },
+        {
+          "date": "2026-10-08",
+          "close": 41.71,
+          "volume": 64242388,
+          "change_pct": 1.09
+        },
+        {
+          "date": "2026-09-16",
+          "close": 40.92,
+          "volume": 53801915,
+          "change_pct": -0.44
+        }
+      ]
+    },
+    {
+      "ticker": "HKEX:9618",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/hkg/9618/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 106.1,
+          "volume": 4885397,
+          "change_pct": 1.14
+        },
+        {
+          "date": "2026-10-15",
+          "close": 104.9,
+          "volume": 6689399,
+          "change_pct": -1.13
+        },
+        {
+          "date": "2026-10-09",
+          "close": 105.6,
+          "volume": 9247639,
+          "change_pct": 0.38
+        },
+        {
+          "date": "2026-10-08",
+          "close": 105.2,
+          "volume": 5706369,
+          "change_pct": 0.29
+        },
+        {
+          "date": "2026-09-16",
+          "close": 105.9,
+          "volume": 3399264,
+          "change_pct": -0.38
+        }
+      ]
+    },
+    {
+      "ticker": "HKEX:9999",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/hkg/9999/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 197.7,
+          "volume": 3849832,
+          "change_pct": 0.76
+        },
+        {
+          "date": "2026-10-15",
+          "close": 196.2,
+          "volume": 4814110,
+          "change_pct": -0.51
+        },
+        {
+          "date": "2026-10-09",
+          "close": 193.5,
+          "volume": 7777832,
+          "change_pct": 3.75
+        },
+        {
+          "date": "2026-10-08",
+          "close": 186.5,
+          "volume": 4065859,
+          "change_pct": -1.06
+        },
+        {
+          "date": "2026-09-16",
+          "close": 186.8,
+          "volume": 4633508,
+          "change_pct": -0.16
+        }
+      ]
+    },
+    {
+      "ticker": "HKEX:9888",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/hkg/9888/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 79.45,
+          "volume": 12908065,
+          "change_pct": 1.4
+        },
+        {
+          "date": "2026-10-15",
+          "close": 78.35,
+          "volume": 19214098,
+          "change_pct": -4.51
+        },
+        {
+          "date": "2026-10-09",
+          "close": 83,
+          "volume": 8874992,
+          "change_pct": 1.03
+        },
+        {
+          "date": "2026-10-08",
+          "close": 82.15,
+          "volume": 9805540,
+          "change_pct": -3.07
+        },
+        {
+          "date": "2026-09-16",
+          "close": 88.05,
+          "volume": 8990467,
+          "change_pct": -0.96
+        }
+      ]
+    },
+    {
+      "ticker": "HKEX:2015",
+      "country": "CN",
+      "url": "https://stockanalysis.com/quote/hkg/2015/history/",
+      "status": "retrieved",
+      "observations": [
+        {
+          "date": "2026-10-16",
+          "close": 44.76,
+          "volume": 9643971,
+          "change_pct": 0.72
+        },
+        {
+          "date": "2026-10-15",
+          "close": 44.44,
+          "volume": 9656571,
+          "change_pct": -1.9
+        },
+        {
+          "date": "2026-10-09",
+          "close": 44.66,
+          "volume": 8412994,
+          "change_pct": 3.81
+        },
+        {
+          "date": "2026-10-08",
+          "close": 43.02,
+          "volume": 5752637,
+          "change_pct": -1.1
+        },
+        {
+          "date": "2026-09-16",
+          "close": 46.48,
+          "volume": 10589244,
+          "change_pct": 0.78
+        }
+      ]
+    }
+  ]
+}
