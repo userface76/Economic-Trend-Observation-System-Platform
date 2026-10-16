@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-16",
+  "kind": "closing",
+  "data_as_of": "2026-10-16T15:30:00+09:00",
+  "data_commit_sha": "900f4455184f872a86d4e268957ccf94d3e35658",
+  "data_url": "https://github.com/userface76/Economic-Trend-Observation-System-Platform/blob/900f4455184f872a86d4e268957ccf94d3e35658/data/closing/2026-10-16.json",
+  "remote_json_verified": true,
+  "raw_path": "data/market/KR/2026-10-16.json",
+  "collection_status": "success",
+  "cross_validation": "partial_markets; sample_stock_conflicts",
+  "quality": {
+    "market_required_fields": [
+      "close",
+      "change_pct",
+      "volume_shares",
+      "turnover_krw",
+      "advancers",
+      "decliners",
+      "foreign_net_buy_krw",
+      "institution_net_buy_krw"
+    ],
+    "market_required_count": 16,
+    "market_missing_count": 6,
+    "market_missing_pct": 37.5,
+    "market_independently_crosschecked_count": 4,
+    "market_not_independently_crosschecked_pct": 75,
+    "stock_api_basic_required_count": 84,
+    "stock_api_basic_missing_count": 0,
+    "stock_api_basic_missing_pct": 0,
+    "stock_canonical_required_fields": [
+      "close",
+      "change_pct",
+      "volume",
+      "turnover_krw",
+      "volume_change_1d_pct",
+      "turnover_change_1d_pct",
+      "foreign_net_buy_krw",
+      "institution_net_buy_krw",
+      "ma20",
+      "low_52w",
+      "rsi14",
+      "obv",
+      "confirmation_price",
+      "invalidation_price"
+    ],
+    "stock_canonical_required_count": 294,
+    "stock_canonical_missing_count": 294,
+    "stock_canonical_missing_pct": 100,
+    "cross_validation": "partial_markets; sampled_KIS_closes_conflict",
+    "training_eligible": false,
+    "training_exclusion_reason": "시세·수급 불일치와 필수 종목자료 미검증"
+  },
+  "training_eligible": false,
+  "deployment": {
+    "id": "723a453f-3adb-4c3a-9cd2-1556becd0646",
+    "service_id": "ed170520-2868-49f0-8fe0-f090a60506e9",
+    "environment_id": "105ecc9c-d60e-4cdc-bda2-555515ba53f2",
+    "status": "SUCCESS",
+    "commit_sha": "900f4455184f872a86d4e268957ccf94d3e35658",
+    "verified_at": "2026-10-16T07:18:37.090Z"
+  }
+}
