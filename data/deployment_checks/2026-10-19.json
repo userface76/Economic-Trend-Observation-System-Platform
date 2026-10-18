@@ -1,0 +1,70 @@
+{
+  "report_date": "2026-10-19",
+  "data_commit_sha": "9b7c9a2a2015af190810215f7ad26b6c9917a5bd",
+  "file_url": "https://github.com/userface76/Economic-Trend-Observation-System-Platform/blob/9b7c9a2a2015af190810215f7ad26b6c9917a5bd/data/reports/2026-10-19.json",
+  "remote_file_readback_equal": true,
+  "data_reference_dates": {
+    "stocks": "2026-10-16",
+    "official_us_yields": "2026-10-15",
+    "raw_KIS": "2026-10-16"
+  },
+  "quality": {
+    "scope": "16 indicators and80stocks;4valuefields",
+    "required_fields": 384,
+    "missing_fields": 77,
+    "missing_pct": 20.05,
+    "secondary_stock_history_retrieved": 80,
+    "stock_fields_quarantined_on_KIS_close_conflict": 48,
+    "independent_cross_validation": "partial; unvalidated values excluded from training",
+    "training_eligible": false,
+    "rechecked_stock_histories": 80,
+    "scope_note": "current객체는1필드; 내부KOSDAQ시장폭누락별도",
+    "nested_breadth_required_counts": 4,
+    "nested_breadth_missing_counts": 2,
+    "nested_breadth_missing_pct": 50
+  },
+  "missing_items": [
+    "종목별 기관·외국인 수급 또는 ETF 자금 흐름",
+    "52주 저점·장기 일봉 기반 RSI·OBV·20일선 및 재시험 검증",
+    "심리 극단과 실적·현금흐름 전망의 괴리 자료",
+    "재무 안전성·부채·이자보상·희석 위험",
+    "금·구리 계약 일치 확정 결제가격",
+    "다수 거시지표 1개월 및 일부 1주 비교값",
+    "미국 공통기준 시장폭·KOSDAQ 시장폭 출처 불일치"
+  ],
+  "collection_status": "latest10/16KIS21success;failures0;10/19preopen_no_completed_day",
+  "report_validation_status": "schema_passed;analytical_inputs_incomplete;training_excluded",
+  "railway": {
+    "project_id": "f01ab4d9-a996-44c6-852c-6d9371108f36",
+    "service_id": "ed170520-2868-49f0-8fe0-f090a60506e9",
+    "environment_id": "105ecc9c-d60e-4cdc-bda2-555515ba53f2",
+    "deployment_id": "0084ee6c-15f3-45c4-9f86-6dfd1b9a4108",
+    "commit_sha": "9b7c9a2a2015af190810215f7ad26b6c9917a5bd",
+    "status": "SUCCESS",
+    "completed_at": "2026-10-18T23:38:35.581Z"
+  },
+  "live_checks": [
+    {
+      "path": "/reports/2026-10-19",
+      "http_status": 200,
+      "report_date_present": true
+    },
+    {
+      "path": "/countries?country=US",
+      "http_status": 200,
+      "report_date_present": true,
+      "apple_regular_close_343_46_present": true
+    }
+  ],
+  "raw_KR_archive": {
+    "path": "data/market/KR/2026-10-16.json",
+    "log_payload_equal": true,
+    "preserved_existing": true,
+    "status": "quarantined_pending_cross_validation"
+  },
+  "validation_audit_path": "data/validation/2026-10-19.json",
+  "temporary_source_failures": [
+    "YahooFinance gold,copper,DXY histories HTTP429"
+  ],
+  "disclaimer": "저장·배포 성공은 시세교차검증완료 또는 모델학습완료를 뜻하지 않음."
+}
